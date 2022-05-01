@@ -115,5 +115,4 @@
   <setattribute xpath="/progression/perks/perk[@name='perkGottaGoFast']//effect_description[@level='3']" name="long_desc_key">perkGottaGoFastRank3LongDesc</setattribute>
   <setattribute xpath="/progression/perks/perk[@name='perkGottaGoFast']//effect_description[@level='4']" name="long_desc_key">perkGottaGoFastRank4LongDesc</setattribute>
   <setattribute xpath="/progression/perks/perk[@name='perkGottaGoFast']//effect_description[@level='5']" name="long_desc_key">perkGottaGoFastRank5LongDesc</setattribute>
-  
 </config>
