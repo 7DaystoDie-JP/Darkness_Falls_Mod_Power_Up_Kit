@@ -1,0 +1,131 @@
+﻿<configs>
+<!-- Localization Improvement -->
+	 <set xpath="/windows/window[@name='CharacterFrameWindow']/grid[@visible='{showstats}']">
+				<player_stats_entry backgroundcolor="[darkestGrey]" textcontent="基礎健康値" valuecontent="{cvar(wellness:0)}" />
+				<player_stats_entry backgroundcolor="[darkestGrey]" textcontent="{playerhealthtitle|once}" valuecontent="{playerhealth}/{playermaxhealth}" />
+				<player_stats_entry backgroundcolor="[darkGrey]"    textcontent="{playerstaminatitle|once}" valuecontent="{playerstamina}/{playermaxstamina}" />
+				<player_stats_entry backgroundcolor="[darkestGrey]" textcontent="{playerfoodtitle|once}" valuecontent="{playermodifiedcurrentfood}/{playerfoodmax}" />
+				<player_stats_entry backgroundcolor="[darkGrey]"    textcontent="{playerwatertitle|once}" valuecontent="{playermodifiedcurrentwater}/{playerwatermax}" />
+				<player_stats_entry backgroundcolor="[darkestGrey]" textcontent="{playercoretemptitle|once}" valuecontent="{playercoretemp}" />
+				<player_stats_entry backgroundcolor="[darkGrey]"    textcontent="{playerzombiekillstitle|once}" valuecontent="{playerzombiekills}" />
+				<player_stats_entry backgroundcolor="[darkestGrey]" textcontent="{playerpvpkillstitle|once}" valuecontent="{playerpvpkills}" />
+				<player_stats_entry backgroundcolor="[darkGrey]"    textcontent="{playerdeathstitle|once}" valuecontent="{playerdeaths}" />
+				<player_stats_entry backgroundcolor="[darkestGrey]" textcontent="{playertravelledtitle|once}" valuecontent="{playertravelled}" />
+				<player_stats_entry backgroundcolor="[darkGrey]"    textcontent="{playeritemscraftedtitle|once}" valuecontent="{playeritemscrafted}" />
+				<player_stats_entry backgroundcolor="[darkestGrey]" textcontent="{playerlongestlifetitle|once}" valuecontent="{playerlongestlife}" />
+				<player_stats_entry backgroundcolor="[darkGrey]"    textcontent="{playercurrentlifetitle|once}" valuecontent="{playercurrentlife}" />
+				<player_stats_entry backgroundcolor="[darkestGrey]" textcontent="{playerxptonextleveltitle|once}" valuecontent="{playerxptonextlevel}" />
+				<player_stats_entry backgroundcolor="[darkGrey]"    textcontent="{playerlootstagetitle|once}" valuecontent="{playerlootstage}" /> 
+				<!-- this is how to display a cvar on the player stats screen 
+				<player_stats_entry backgroundcolor="[darkGrey]" 	textcontent="Stress Level" valuecontent="{cvar(stressLevel:0)}" /> -->
+				<player_stats_entry backgroundcolor="[darkGrey]" textcontent="友好度:ボブ" valuecontent="{cvar(traderBobFaction:0)}" />
+				<player_stats_entry backgroundcolor="[darkGrey]" textcontent="友好度:ヒュー" valuecontent="{cvar(traderHughFaction:0)}" />
+				<player_stats_entry backgroundcolor="[darkestGrey]" 	textcontent="友好度:ジェン" valuecontent="{cvar(traderJenFaction:0)}" />
+				<player_stats_entry backgroundcolor="[darkGrey]" textcontent="友好度:ジョエル" valuecontent="{cvar(traderJoelFaction:0)}" />
+				<player_stats_entry backgroundcolor="[darkestGrey]" 	textcontent="友好度:レクト" valuecontent="{cvar(traderRektFaction:0)}" />
+				<player_stats_entry backgroundcolor="[darkestGrey]" 	textcontent="友好度:ケイトリン" valuecontent="{cvar(traderCaitlinFaction:0)}" />
+				<player_stats_entry backgroundcolor="[darkGrey]" textcontent="友好度:ホワイトリバー" valuecontent="{cvar(whiteRiverSurvivorsFaction:0)}" />
+				<player_stats_entry backgroundcolor="[darkestGrey]"    textcontent="" valuecontent="" />
+				<player_stats_entry backgroundcolor="[darkGrey]" textcontent="" valuecontent="" />
+				<player_stats_entry backgroundcolor="[darkestGrey]"    textcontent="" valuecontent="" />
+				<player_stats_entry backgroundcolor="[darkGrey]" textcontent="" valuecontent="" />
+				<player_stats_entry backgroundcolor="[darkestGrey]"    textcontent="" valuecontent="" />
+				<player_stats_entry backgroundcolor="[darkGrey]" textcontent="" valuecontent="" />
+				<player_stats_entry backgroundcolor="[darkestGrey]"    textcontent="" valuecontent="" />
+				<!--
+				<player_stats_entry backgroundcolor="[darkGrey]" 	textcontent="{playerwellnesstitle|once}" valuecontent="{cvar(wellness:0)}" />  -->
+	</set>
+	<!-- About -->
+		<append xpath="/windows">
+		<window name="IPSMainA"  depth="51" width="397" height="688"  cursor_area="true" >
+			<panel depth="23" controller="CharacterFrameWindow"  pos="-650,50" width="500" height="62" disableautobackground="true">
+				<panel name="header" pos="99999,99999" width="0" height="0">
+					<sprite depth="2" name="windowIcon" pos="99999,99999" width="0" height="0"/>
+					<label depth="2" name="characterName" pos="99999,99999" width="0" height="0"/>
+					<sprite depth="2" name="windowIcon" pos="99999,99999" width="0" height="0"/>
+					<label depth="2" name="levelNumber" pos="99999,99999" width="0" height="0"/>
+				</panel>			
+				<rect depth="2" name="searchControls" width="327" height="43" pos="349,320">
+					<sprite depth="8" name="backgroundMain" pos="99999,99999" width="0" height="0"/>
+					<button name="statButton" style="press" width="1" height="1" pos="600,-22" collider_scale="80.0" pivot="center">
+						<label depth="5" width="0" height="40" pivot="center" justify="center" text=""/>
+						<sprite depth="5" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="0" height="40" color="[darkGrey]" type="sliced" pivot="center" globalopacity="true" globalopacitymod="1.8" />
+					</button>		
+					<button depth="4" name="coreStatButton" style="icon30px, press" pos="99999,99999" width="0" height="0" sprite="ui_game_symbol_trophy" pivot="center"/>
+				</rect>
+				<rect><panel name="previewFrame" pos="99999,99999" width="0" height="0">
+						<rect>
+							<sprite depth="8" name="backgroundMain" pos="99999,99999" width="0" height="0"/>
+							<texture depth="2" name="playerPreview" material="Materials/Transparent Colored" pos="99999,99999" size="1,1"/>
+						</rect>
+					</panel>
+					<panel name="equipment" pos="99999,99999" width="0" height="0">
+						<grid name="inventory"/>
+					</panel>
+				</rect>
+				<rect visible="{showcharacter}" pos="485,200">
+					<infopanel  button_name="Darkness Falls Power Up Kit Ver.4.03" posx="165" posy="-600" name="Darkness Falls Power Up Kit Ver.4.03" description="Comments"/>
+				</rect>
+			</panel>
+		</window>
+	</append>
+	<!-- Action Skill Status Add on -->
+	<set xpath="/windows/window[@name='HUDRightStatBars']/rect[@pos='-90,31']/@pos">-90,148</set>
+	<set xpath="/windows/window[@name='HUDRightStatBars']/grid[@pos='-177,52']/@pos">-194,157</set>
+	<set xpath="/windows/window[@name='HUDRightStatBars']/rect[@pos='-177,100']/@pos">-177,222</set>
+	
+	<append xpath="/windows/window[@name='HUDRightStatBars']">
+		<rect name="hud" pos="-374,124" rows="1" cols="1" width="80" controller="HUDStatBar" visible="{statvisible}">
+			<sprite depth="1" pos="0,0" height="57" width="120" color="0,0,0,180" type="sliced" foregroundlayer="true" />
+			<sprite depth="2" name="windowIcon" width="30" height="30" pos="4,-4" sprite="ui_game_symbol_knife" color="[iconColor]" foregroundlayer="true" />
+			<label depth="2" name="TextContent" pos="36,-4" width="80" height="18" text="ITEM LEVEL" font_size="20" color="[white]" />
+			<label depth="2" name="TextContent" pos="36,-17" width="80" height="30" text="[DECEA3]{cvar($Equip_Item_Skill_Lvl:0)}" font_size="30" />
+		</rect>
+		<rect name="hud" pos="-252,124" rows="1" cols="1" width="80" controller="HUDStatBar" visible="{statvisible}">
+			<sprite depth="1" pos="0,0" height="57" width="120" color="0,0,0,180" type="sliced" foregroundlayer="true" />
+			<sprite depth="2" name="windowIcon" width="30" height="30" pos="4,-4" sprite="ui_game_symbol_xp" color="[iconColor]" foregroundlayer="true" />
+			<label depth="2" name="TextContent" pos="36,-4" width="80" height="18" text="ITEM EXP." font_size="20" color="[white]" />
+			<label depth="2" name="TextContent" pos="36,-17" width="80" height="30" text="[DECEA3]{cvar($Equip_Item_Skill_XP:0)}" font_size="30" />
+		</rect>
+		<rect name="hud" pos="-130,124" rows="1" cols="1" width="80" controller="HUDStatBar" visible="{statvisible}">
+			<sprite depth="1" pos="0,0" height="57" width="120" color="0,0,0,180" type="sliced" foregroundlayer="true" />
+			<sprite depth="2" name="windowIcon" width="30" height="30" pos="4,-4" sprite="ui_game_symbol_adventure" color="[iconColor]" foregroundlayer="true" />
+			<label depth="2" name="TextContent" pos="36,-4" width="80" height="18" text="NEXT LEVEL" font_size="20" color="[white]" />
+			<label depth="2" name="TextContent" pos="36,-17" width="80" height="30" text="[DECEA3]{cvar($Equip_Item_Skill_Next:0)}" font_size="30" />
+		</rect>
+		<rect name="hud" pos="-374,63" rows="1" cols="1" width="80" controller="EquipmentStackGrid" visible="{statvisible}">
+			<sprite depth="1" pos="0,0" height="57" width="120" color="0,0,0,180" type="sliced" foregroundlayer="true" />
+			<sprite depth="2" name="windowIcon" width="30" height="30" pos="4,-4" sprite="ui_game_symbol_survival" color="[iconColor]" foregroundlayer="true" />
+			<label depth="2" name="TextContent" pos="36,-4" width="80" height="18" text="TRAVELLED" font_size="20" color="[white]" />
+			<label depth="2" name="TextContent" pos="36,-17" width="80" height="30" text="[DECEA3]{playertravelled}" font_size="30" />
+		</rect>
+		<rect name="hud" pos="-252,63" rows="1" cols="1" width="80" controller="EquipmentStackGrid" visible="{statvisible}">
+			<sprite depth="1" pos="0,0" height="57" width="120" color="0,0,0,180" type="sliced" foregroundlayer="true" />
+			<sprite depth="2" name="windowIcon" width="30" height="30" pos="4,-4" sprite="ui_game_symbol_loot_sack" color="[iconColor]" foregroundlayer="true" />
+			<label depth="2" name="TextContent" pos="36,-4" width="80" height="18" text="LOOT STAGE" font_size="20" color="[white]" />
+			<label depth="2" name="TextContent" pos="36,-17" width="80" height="30" text="[DECEA3]{playerlootstage}" font_size="30" />
+		</rect>
+		<rect name="hud" pos="-130,63" rows="1" cols="1" width="80" controller="HUDStatBar" visible="{statvisible}">
+			<sprite depth="1" pos="0,0" height="57" width="120" color="0,0,0,180" type="sliced" foregroundlayer="true" />
+			<sprite depth="2" name="windowIcon" width="30" height="30" pos="4,-4" sprite="ui_game_symbol_cardio" color="[iconColor]" foregroundlayer="true" />
+			<label depth="2" name="TextContent" pos="36,-4" width="80" height="18" text="WELLNESS" font_size="20" color="[white]" />
+			<label depth="2" name="TextContent" pos="36,-17" width="80" height="30" text="[DECEA3]{cvar(wellness:0)}" font_size="30" />
+		</rect>
+	</append>
+	<!-- Wiki -->
+	<append xpath="/windows">
+
+		<window name="decoComputerMonitorKeyboardMousePC_01" width="4300" height="4050" pos="-925,520" depth="5" anchor="CenterTop" panel="Center" backgroundcolor="[black]">
+			<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
+			</panel>
+			<label depth="6" name="TextContent" pos="-200,-8" font_size="28" color="[red]" justify="center" pivot="topleft" text="チュートリアル No.6" height="30" effect="outline" />
+			<rect name="searchControls" width="170" height="638" depth="100" pos="700,-130">
+				<rect name="info" width="1050" height="580" depth="1" pos="560, 30">
+					<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="170,0" width="1050" height="630" color="255,174,0" type="sliced" fillcenter="false" />
+					<!--<sprite color="[black]" type="sliced" /> -->
+					<texture width="1048" height="628" texture="@https://7daystodie.jp/wiki/_media/mods/3_slot_forge/001.jpg" depth="4" pos="170,0" />
+				</rect>
+			</rect>
+		</window>
+		</append>
+</configs>
