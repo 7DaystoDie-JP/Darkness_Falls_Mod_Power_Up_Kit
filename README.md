@@ -1,6 +1,8 @@
+# Darkness Falls Mod Power Up Kit
+
 # Introduction
-Improvement translation for Darkness Falls Mod - ダークネスフォールズ日本語訳改善<br>
-7 Days to Die Darkness Falls Modの日本語訳を改善するMODです。原則バニラの書式に合わせようとはしていますが、スキル等便利上事務的な書式に変更している場合もあります。
+Darkness Falls Mod Power Up Kit - ダークネスフォールズ・パワーアップキット<br>
+ダークネスフォールズMODを初心者の方でも楽しめるように情報を追加するMODです。日本語和訳については、全て手動で和訳を実施しておりますので、一部開発者の意図と合わない訳があるかもしれません。未訳部分は暫定的に機械翻訳を充てています。原則バニラの書式に合わせようとはしていますが、スキル等便利上事務的な書式に変更している場合もあります。
 
 # Links
 1. Website: https://7daystodie.jp/ *Create database, Wikis and more.
