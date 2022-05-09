@@ -1,6 +1,6 @@
 <config>
     <append xpath="/controls">
-        <infopanel>
+        <!-- <infopanel>
             <rect controller="CharacterFrameWindow" pos="${posx},${posy}">
                 <panel name="header" pos="99999,99999" width="0" height="0">
                     <sprite depth="2" name="windowIcon" pos="99999,99999" width="0" height="0" />
@@ -35,7 +35,7 @@
                     <texture width="1600" height="900" texture="@https://7daystodie.jp/_media/mods/twitch_streamer_support_pack_for_darkness_falls_mod/main.jpg" depth="68" pos="-100,0" />
                 </rect>
             </rect>
-        </infopanel>
+        </infopanel> -->
         <!-- Skill window font control -->
         <custom_skill_entry>
             <panel disableautobackground="true" depth="2" width="645" height="46" controller="SkillEntry" style="press, hover, scroll" enabled_color="[iconColor]" disabled_color="[disabledLabelColor]" row_color="[darkGrey]" hover_color="[mediumGrey]" sound="[recipe_click]" sound_play_on_hover="[default_hover]">
