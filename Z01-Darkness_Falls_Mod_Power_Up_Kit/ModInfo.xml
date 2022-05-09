@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="Darkness_Falls_Mod_Power_Up_Kit" />
-		<Description value="Adding detailed Japanese translation and more useful feather for newbie survivors" />
+		<Description value="Improved Japanese localization and added missing localize data for Japanese survivor." />
 		<Author value="7 Days to Die Gaming Community Japan" />
 		<Version value="4.03" />
 	</ModInfo>
