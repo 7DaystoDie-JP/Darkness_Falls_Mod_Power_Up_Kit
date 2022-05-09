@@ -1,15 +1,18 @@
 <configs>
-	<append xpath="/xui/ruleset">
-	  <window_group name="serverinfowindow">
-		<window name="IPSMainA" />
-		<window name="IPSOverlay" />
-	  </window_group>
-	  <window_group name="workstation_decoComputerMonitorKeyboardMousePC_01" controller="XUiC_WorkstationWindowGroup" actionSet="false">
-		<window name="windowNonPagingHeader" />
-		<window name="windowCraftingList" />
-		<window name="craftingInfoPanel" />
-		<window name="windowNonPagingHeader" />
-		<window name="decoComputerMonitorKeyboardMousePC_01" />
-	  </window_group>
-	</append>
-  </configs>
+    <append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
+        <window name="windowTargetBar" anchor="CenterTop" />
+    </append>
+    <append xpath="/xui/ruleset">
+        <window_group name="serverinfowindow">
+            <window name="IPSMainA" />
+            <window name="IPSOverlay" />
+        </window_group>a
+        <window_group name="workstation_decoComputerMonitorKeyboardMousePC_01" controller="XUiC_WorkstationWindowGroup" actionSet="false">
+            <window name="windowNonPagingHeader" />
+            <window name="windowCraftingList" />
+            <window name="craftingInfoPanel" />
+            <window name="windowNonPagingHeader" />
+            <window name="decoComputerMonitorKeyboardMousePC_01" />
+        </window_group>
+    </append>
+</configs>

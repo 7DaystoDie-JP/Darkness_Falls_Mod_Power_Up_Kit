@@ -1,40 +1,56 @@
 <config>
-	<append xpath="/controls">
-	  <infopanel>
-		<rect controller="CharacterFrameWindow" pos="${posx},${posy}">
-		  <panel name="header" pos="99999,99999" width="0" height="0">
-			<sprite depth="2" name="windowIcon" pos="99999,99999" width="0" height="0" />
-			<label depth="2" name="characterName" pos="99999,99999" width="0" height="0" />
-			<sprite depth="2" name="windowIcon" pos="99999,99999" width="0" height="0" />
-			<label depth="2" name="levelNumber" pos="99999,99999" width="0" height="0" />
-		  </panel>
-		  <rect depth="1" name="searchControls">
-			<sprite depth="8" name="backgroundMain" pos="99999,99999" width="0" height="0" />
-			<button depth="8" visible="{showstats}" name="characterButton" style="press" width="1" height="1" pivot="center" collider_scale="9000" selected="true">
-			  <sprite color="0,0,0,200" type="sliced" width="99999" height="99999" pos="-700,1500" pivot="center" globalopacity="true" />
-			</button>
-			<button depth="-11" name="statButton" style="press" width="3" hoverscale="1.075" height="1" pos="0,0" collider_scale="80.0" pivot="center">
-			  <label style="header.name" pos="0,0" pivot="center" justify="center" text_key="${button_name}" />
-			  <sprite depth="-11" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="300" height="59" color="[darkGrey]" type="sliced" pivot="center" globalopacity="true" globalopacitymod="1.8" />
-			</button>
-			<button depth="4" name="coreStatButton" style="icon30px, press" pos="99999,99999" width="0" height="0" sprite="ui_game_symbol_trophy" pivot="center" />
-		  </rect>
-		  <rect>
-			<panel name="previewFrame" pos="99999,99999" width="0" height="0">
-			  <rect>
-				<sprite depth="8" name="backgroundMain" pos="99999,99999" width="0" height="0" />
-				<texture depth="2" name="playerPreview" pos="99999,99999" size="1,1" />
-			  </rect>
-			</panel>
-			<panel name="equipment" pos="99999,99999" width="0" height="0">
-			  <grid name="inventory"></grid>
-			</panel>
-		  </rect>
-		  <rect visible="{showcharacter}"></rect>
-		  <rect depth="62" pos="${-550-posx},${150-posy}" visible="{showstats}">
-			<texture width="1048" height="628" texture="@https://7daystodie.jp/wiki/_media/mods/darkness_falls_mod_power_up_kit/main.jpg" depth="68" pos="170,0" />
-		  </rect>
-		</rect>
-	  </infopanel>
-	</append>
-  </config>
+    <append xpath="/controls">
+        <infopanel>
+            <rect controller="CharacterFrameWindow" pos="${posx},${posy}">
+                <panel name="header" pos="99999,99999" width="0" height="0">
+                    <sprite depth="2" name="windowIcon" pos="99999,99999" width="0" height="0" />
+                    <label depth="2" name="characterName" pos="99999,99999" width="0" height="0" />
+                    <sprite depth="2" name="windowIcon" pos="99999,99999" width="0" height="0" />
+                    <label depth="2" name="levelNumber" pos="99999,99999" width="0" height="0" />
+                </panel>
+                <rect depth="1" name="searchControls">
+                    <sprite depth="8" name="backgroundMain" pos="99999,99999" width="0" height="0" />
+                    <button depth="8" visible="{showstats}" name="characterButton" style="press" width="1" height="1" pivot="center" collider_scale="9000" selected="true">
+                        <sprite color="0,0,0,200" type="sliced" width="99999" height="99999" pos="-700,1500" pivot="center" globalopacity="true" />
+                    </button>
+                    <button depth="-11" name="statButton" style="press" width="3" hoverscale="1.075" height="1" pos="0,0" collider_scale="80.0" pivot="center">
+                        <label style="header.name" pos="0,0" pivot="center" justify="center" text_key="${button_name}" />
+                        <sprite depth="-11" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="300" height="59" color="[darkGrey]" type="sliced" pivot="center" globalopacity="true" globalopacitymod="1.8" />
+                    </button>
+                    <button depth="4" name="coreStatButton" style="icon30px, press" pos="99999,99999" width="0" height="0" sprite="ui_game_symbol_trophy" pivot="center" />
+                </rect>
+                <rect>
+                    <panel name="previewFrame" pos="99999,99999" width="0" height="0">
+                        <rect>
+                            <sprite depth="8" name="backgroundMain" pos="99999,99999" width="0" height="0" />
+                            <texture depth="2" name="playerPreview" pos="99999,99999" size="1,1" />
+                        </rect>
+                    </panel>
+                    <panel name="equipment" pos="99999,99999" width="0" height="0">
+                        <grid name="inventory"></grid>
+                    </panel>
+                </rect>
+                <rect visible="{showcharacter}"></rect>
+                <rect depth="62" pos="${-550-posx},${150-posy}" visible="{showstats}">
+                    <texture width="1600" height="900" texture="@https://7daystodie.jp/_media/mods/twitch_streamer_support_pack_for_darkness_falls_mod/main.jpg" depth="68" pos="-100,0" />
+                </rect>
+            </rect>
+        </infopanel>
+        <!-- Skill window font control -->
+        <custom_skill_entry>
+            <panel disableautobackground="true" depth="2" width="645" height="46" controller="SkillEntry" style="press, hover, scroll" enabled_color="[iconColor]" disabled_color="[disabledLabelColor]" row_color="[darkGrey]" hover_color="[mediumGrey]" sound="[recipe_click]" sound_play_on_hover="[default_hover]">
+                <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,2" width="647" height="48" color="[black]" type="sliced" fillcenter="false" />
+                <sprite depth="1" color="{rowstatecolor}" sprite="{rowstatesprite}" width="644" height="45" type="sliced" />
+                <sprite depth="2" name="groupIcon" sprite="{groupicon}" style="icon32px" pos="6, -3" color="{statuscolor}" foregroundlayer="true" />
+                <label width="360" font_size="22" name="groupName" pos="44,-20" pivot="left" depth="2" text="{groupname}" color="{statuscolor}" />
+                <!-- <sprite depth="3" pos="0,-39" height="3" width="640" color="[lightGrey]" foregroundlayer="true" visible="{skillpercentshouldshow}" type="sliced" /> -->
+                <!-- <sprite depth="3" pos="0,-39" height="3" width="640" color="[red]" foregroundlayer="true" type="filled" fill="{skillpercentthislevel}" visible="{skillpercentshouldshow}" /> -->
+                <sprite depth="2" pos="486,-19" sprite="ui_game_symbol_lock" visible="{islocked}" style="icon32px" pivot="center" color="{statuscolor}" foregroundlayer="true" />
+                <label width="125" pos="486,-20" depth="2" text="{grouplevel}" visible="{isnotlocked}" pivot="center" justify="center" color="{statuscolor}" />
+                <!--<sprite pos="492,-19" depth="2" sprite="{grouptypeicon}" style="icon32px" pivot="center" color="{statuscolor}" foregroundlayer="true"/>-->
+                <sprite depth="2" pos="593,-19" sprite="ui_game_symbol_check" visible="{cannotpurchase}" style="icon32px" pivot="center" color="{statuscolor}" foregroundlayer="true" />
+                <label width="90" pos="593,-20" depth="2" text="{grouppointcost}" visible="{canpurchase}" pivot="center" justify="center" color="{statuscolor}" />
+            </panel>
+        </custom_skill_entry>
+    </append>
+</config>

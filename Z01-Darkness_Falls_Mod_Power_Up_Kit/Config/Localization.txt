@@ -122,9 +122,9 @@ attClassHunterDesc,クラスのクエスト進行状況、独自のパークを�
 attClassHunterName,クラス:ハンター
 attClassHunterRank1Desc,Rank1:最初のクラスクエスト完了時にアンロック
 attClassHunterRank2Desc,Rank2:最後のクラスクエスト完了時にアンロック
-attclasslaborer,クラス:労働者
+attclasslaborer,クラス:労働者 (レイバラー)
 attClassLaborerDesc,クラスのクエスト進行状況、独自のパークを確認できます。
-attClassLaborerName,クラス:労働者
+attClassLaborerName,クラス:労働者 (レイバラー)
 attClassLaborerRank1Desc,Rank1:最初のクラスクエスト完了時にアンロック
 attClassLaborerRank2Desc,Rank2:最後のクラスクエスト完了時にアンロック
 attclassmechanic,クラス:メカニック
@@ -132,9 +132,9 @@ attClassMechanicDesc,クラスのクエスト進行状況、独自のパーク�
 attClassMechanicName,クラス:メカニック
 attClassMechanicRank1Desc,Rank1:最初のクラスクエスト完了時にアンロック
 attClassMechanicRank2Desc,Rank2:最後のクラスクエスト完了時にアンロック
-attclassscientist,クラス:サイエンティスト(科学者)
+attclassscientist,クラス:科学者 (サイエンティスト)
 attClassScientistDesc,クラスのクエスト進行状況、独自のパークを確認できます。
-attClassScientistName,クラス:サイエンティスト(科学者)
+attClassScientistName,クラス:科学者 (サイエンティスト)
 attClassScientistRank1Desc,Rank1:最初のクラスクエスト完了時にアンロック
 attClassScientistRank2Desc,Rank2:最後のクラスクエスト完了時にアンロック
 attclasssecurity,クラス:セキュリティ
@@ -427,10 +427,10 @@ DFammo44MagHPCoilroundBundle,.44マグナム弾薬箱(コイル・HP)
 DFammo44MagnumHP,.44マグナム弾(HP)
 DFammo762HP,7.62mm弾(HP)
 DFammo9mmHP,9mm弾(HP)
-DFammoArrowScrapIron,矢(くず鉄)
+DFammoArrowScrapIron,矢(スクラップアイアン)
 DFammoArrowScrapIronDesc,石の矢やより少し多くのダメージを与えます。ゾンビが実際に生きていたらTetanusを引き起こすでしょう。\n\n和訳修正中:DFammoArrowScrapIronDesc
 DFammoArrowTitanium,矢(チタン)
-DFammoCrossbowBoltScrapIron,クロスボウ・ボルト(くず鉄)
+DFammoCrossbowBoltScrapIron,クロスボウ・ボルト(スクラップアイアン)
 DFammoCrossbowBoltScrapIronDesc,スクラップ鉄のランダムビットから作られたボク。鉄と同じくらい良くないが、ピンチで十分に良い。\n\n和訳修正中:DFammoCrossbowBoltScrapIronDesc
 DFammoCrossbowBoltTitanium,クロスボウ・ボルト(チタン)
 DFammoDartTitanium,ダーツ(チタン)
@@ -752,9 +752,9 @@ DFKeycardRed,キーカード（赤）
 DFKnifesBook,設計図「肉屋のツール」
 DFKnifesBookDesc,この本を読むこの商品を作るために必要なPERKのロックを解除します。\ Nthis Bookは、ブタリングツールを1冊あたり1レベルでロック解除します。\n\n和訳修正中:DFKnifesBookDesc
 DFLaborer,建設の専門家。労働者は道具を作り、資源の集まり、そしてそれらを有用な建築材料に変えることに熟知しています。非労働者のチタンビルディングブロックへのアクセスを取得せず、より高いプレイヤーレベルで鉄、スチールおよびコンクリートにアクセスすることはできません。\ N \ Nclass Quest Rewards \ Nrewardsがリストされているクエスト番号が終了したときに獲得されます。\ n \ nquest 1：Tシャツ、ブラウンデニムパンツ、磨耗したブーツ、マイニングヘルメット。\ NQUEST 2：2ムラ水、2牛の給料、+1ハンマー、フォージ・ペルク\ NQuest 3：2応急処置包帯。\ NQUEST 4：+1ハンマーとフォージのPerk。\ NQuest 5：+1スキルポイント。\ NQuest 6：Nailgun item。さらにロックを解除するためにマスタイのPerkをチェックしてください。\n\n和訳修正中:DFLaborer
-DFLaborer_title,クラス:レイバラー(労働者)
+DFLaborer_title,クラス:労働者 (レイバラー)
 DFLaborerAdminBook,労働者ブック(管理者用)
-DFLaborerClassBook,クラス:レイバラー(労働者)
+DFLaborerClassBook,クラス:労働者 (レイバラー)
 DFLaborerMasteryBook,労働者ブック(マスタリー)
 DFLaserCarbineBarrel,レーザーカービン:バレル
 DFLaserCarbineReceiver,レーザーカービン:レシーバー
@@ -776,7 +776,7 @@ DFLeverActionBook,この本を読むこのアイテムを作るために必要�
 DFloadingTipStoneHammer,石のハンマーは非常に基本的な武器として使用することができますが、それはブロックを修復してアップグレードすることです。
 DFloadingTipStoneHammer_title,ストーンハンマー
 DFloadingTipTraderFaction,トレーダーは現在個別の派閥を持っています。この派閥の評価を増やすために彼らのためにクエストを完了する必要があります。各トレーダーとの派閥の評価は、Player Stats画面で見ることができます。\n\n和訳修正中:DFloadingTipTraderFaction
-DFloadingTipTraderFaction_title,トレーダー派閥
+DFloadingTipTraderFaction_title,DF: トレーダー派閥
 DFloadingTipTraderSkills,トレーダーは今あなたの派閥とあなたの派閥に応じて、あなたに特典とレシピを教えることができます。各トレーダーにはユニークなリストがありますので、それらすべてのために探求してクエストをする価値があります。\n\n和訳修正中:DFloadingTipTraderSkills
 DFloadingTipTraderSkills_title,トレーダー育成プログラム
 DFloadingTipWellness,ウェルネスはあなたの最大健康とスタミナを決定します。けがと死はそれを永久的に減少させますが、特典や飲食はそれを増やします。そこに注意してください！\n\n和訳修正中:DFloadingTipWellness
@@ -919,7 +919,7 @@ DFnailBomb,くぎ爆弾
 DFnailBombDesc,10ブロック半径内で出血を引き起こす家庭用爆発物\n\n和訳修正中:DFnailBombDesc
 DFNightStalker,ナイトストーカー
 DFNightStalkerBoss,ナイトストーカー(ボス)
-DFnpcDoctorAnna,ドクター・アンナ
+DFnpcDoctorAnna,アンナ博士
 DFnpcFemaleGuard1,トレーダーガード
 DFnpcFemaleGuard2,トレーダーガード
 DFnpcFemaleGuard3,トレーダーガード
@@ -931,7 +931,7 @@ DFnpcMaleGuard2,トレーダーガード
 DFnpcMaleGuard3,トレーダーガード
 DFnpcMaleGuard4,トレーダーガード
 DFnpcMaleGuard5,トレーダーガード
-DFnpcRazor,カミソリ
+DFnpcRazor,切れ者のレイザー
 DFnpcTraderCaitlin,トレーダー・ケイトリン
 DFoilPump,オイルポンプ
 DFOrange,オレンジ
@@ -1032,10 +1032,10 @@ DFrifleStock,汎用ライフル:ストック
 DFroastDinner,サンデーロースト
 DFScavengerMasteryBook,スカベンジャーブック(マスタリー)
 DFScientist,より自宅では、荒野よりラボでは、科学者はさまざまな化学物質や癒しの商品を作ることができます。非科学者はまだ無菌の包帯や副木のように、より基本的な癒しのアイテムを作ることができます。ズボン、スーツシューズ。\ NQUEST 2：+1医師Perk。\ NQUEST 3：1濁った水、2チキン給賞、+1 yeah Science Perk。\ NQuest 4：スクラップマチェーテの商品。 NQUEST 6：クローバー。\ N \ Nupon最終クラスのクエストの完成、科学者は+10の作成階層を獲得し、武器とフラメトローワーを獲得しました。さらにロックを解除するためにマスタイのPerkをチェックしてください。\n\n和訳修正中:DFScientist
-DFScientist_title,クラス:サイエンティスト(科学者)
-DFScientistAdminBook,サイエンティスト(科学者)ブック(管理者用)
-DFScientistClassBook,クラス:サイエンティスト(科学者)
-DFScientistMasteryBook,サイエンティスト(科学者)ブック(マスタリー)
+DFScientist_title,クラス:科学者 (サイエンティスト)
+DFScientistAdminBook,科学者 (サイエンティスト)ブック(管理者用)
+DFScientistClassBook,クラス:科学者 (サイエンティスト)
+DFScientistMasteryBook,科学者 (サイエンティスト)ブック(マスタリー)
 DFScifiAIOT,レーザーマルチツール
 DFScoutDamaged,ミリタリースカウト(損傷)
 DFScoutLocked,ミリタリースカウト
@@ -1203,7 +1203,7 @@ DFToolsoftheTradeDesc,この本を読むこの商品を作るために必要なP
 DFtooltanningRack,日焼けラック
 DFtoolweldingTorch,溶接トーチ
 DFtorchSurvival,サバイバリストのトーチ
-DFTraderSkillSystem,トレーダーには互いに独立している派閥システムがあります。つまり、1人のトレーダーで稼ぐ任意の派閥は他のトレーダーに持ち越されません。\ n \ Nso JoelでT3クエストがロック解除されてRektを見つけても、RektでT1クエストしかありません。\ N \ Nbut The Trader派閥はそれ以上のものです。より高い派閥で、トレーダーはデュークのためのスキルを教えるでしょう。これはあなたのツールの作成やあなたに実際のレシピを教えるのと同じくらい簡単なものです。トレーダーはまた、非常に高い価格でクラスの習熟を教えることができます。\ N \ nスキルを学ぶためのオプションは見られません、あなたの派閥は十分に高くないか、あなたの人に十分な硬貨を持っていません。\n\n和訳修正中:DFTraderSkillSystem
+DFTraderSkillSystem,トレーダーは現在、互いに独立した派ionシステムを持っています。つまり、1つのトレーダーと一緒に獲得した派factは他のトレーダーに引き継がれません。したがって、T3クエストがJoelでロック解除されてRektを見つけると、RektでT1クエストしかありませんが、トレーダー派はそれ以上のことを行います。ハイヤー派では、トレーダーがデュークのスキルを教えてくれます。これは、ツールのクラフトを平準化したり、実際のレシピを教えたりするのと同じくらい簡単なことです。トレーダーは、非常に高い価格でクラスの習得を教えることもできます。スキルを学ぶための選択肢がない場合、派ionが十分に高くないか、人に十分なコインがありません。\n\n和訳修正中:DFTraderSkillSystem
 DFTraderSkillSystem_title,トレーダー派閥
 DFTruckDamaged,軍用トラック(破壊)
 DFTruckLocked,軍用トラック
@@ -1309,7 +1309,7 @@ DFzombieJoel,トレーダー・ジョエル(ゾンビ化)
 DFzombieMaleStripper,ゾンビストリッパー
 DFzombieMaleStripperFeral,ゾンビストリッパー(残忍)
 DFzombieMaleStripperWeak,ゾンビストリッパー(弱体化)
-DFzombieRekt,トレーダー・ジョエル(ゾンビ化)
+DFzombieRekt,トレーダー・レクト(ゾンビ化)
 DFzombieTitan,ゾンビタイタン
 DFzombieTitanRadiated,ゾンビタイタン(放射能汚染)
 dialog_trader_response_jobshaveT1,何か仕事はあるか？(TierI)
@@ -1453,37 +1453,37 @@ EntityLootContainerWightDemon,戦利品
 EntityLootContainerWightRegular,戦利品
 EntityLootContainerWolf,戦利品
 Eve_Meeting_Anna,クエスト-ドクター往診
-Eve_Meeting_Anna_completion,初めまして、私はドクター・アンナ。アンナと呼んで良いわ。まずこれを渡すね…仕事に必要な大事な物よ。
+Eve_Meeting_Anna_completion,初めまして、私はアンナ。アンナ博士と呼んでね。まずこれを渡すね…仕事に必要な大事な物よ。
 Eve_Meeting_Anna_description,イヴは私の実力を認め、この世界の謎を知るアンナ博士に出会う刻が来たことを告げた。
 Eve_Meeting_Anna_offer,いつもありがとう。そろそろね…アンナ博士に会ってみない？この狂った世界の事を教えてもらえるわよ。
 Eve_Meeting_Anna_statement,クエスト-ドクター往診
 Eve_Meeting_Anna_subtitle,クエスト-ドクター往診
-Eve_Quest1_clear,試練
+Eve_Quest1_clear,真実に触れる為のテスト
 Eve_Quest1_clear_offer,大量の物資とこの世界の混乱の謎の欠片がある場所が存在するが、その前に私の実力を示さなければならない。
 Eve_Quest1_completion,よくやったわ。あなたの実力テストは合格よ。これは手間賃。後でまたここに来て。あなたには別の仕事を用意するね。
-Eve_Quest1_description,DECEA3]{poi.name}[-]へ向かい、ゾンビを一掃せよ。
+Eve_Quest1_description,挨拶もそこそこにイヴから腕前の披露を催促された。[DECEA3]{poi.name}[-]へ向かい、ゾンビを一掃せよ。
 Eve_Quest1_response,一掃([DECEA3]{poi.distance}[-])
-Eve_Quest1_statement,スリーパーを片付けて帰ってこい。
-Eve_Quest1_subtitle,スリーパーを全滅させる
+Eve_Quest1_statement,そこにいる寝坊助ゾンビをすべて片付けて帰ってきなさい。
+Eve_Quest1_subtitle,ゾンビを一掃せよ
 Eve_Quest2_completion,お疲れ様。この物資は本当に必要な物なの。これは私の気持ちね。あなたには更に別の仕事を用意するからまた後で来てね。
-Eve_Quest2_description,DECEA3]{poi.name}[-]に向かい、物資を回収せ物資を含めて回収時の不測の事態に警戒すべきだ。
-Eve_Quest2_fetch,親切とは
+Eve_Quest2_description,イヴからのお願いは[DECEA3]{poi.name}[-]に向かい、重要な物資を回収することだった。ここで手間取る事は無い。早々に片付けよう。
+Eve_Quest2_fetch,イブのお願い
 Eve_Quest2_response,回収([DECEA3]{poi.distance}[-])
-Eve_Quest2_statement,物資を取り戻してこい。
-Eve_Quest2_subtitle,物資の回収
+Eve_Quest2_statement,ようこそ…早速だけど本題に入るわ。この建物を探索してあるものを回収して欲しいの。詳しいことは帰ってきてからね…いってらっしゃい。
+Eve_Quest2_subtitle,物資を回収せよ
 Eve_Quest3_completion,あなたが回収した資料から政府の意図が読み取れたわ。また後で来てね、別の仕事を用意するわ。
 Eve_Quest3_description,DECEA3]{poi.name}[-]に向かい、物資を回収せよ。激しい抵抗が予想されるので準備は万全に。
-Eve_Quest3_fetch,報酬
+Eve_Quest3_fetch,真実への報酬
 Eve_Quest3_response,回収([DECEA3]{poi.distance}[-])
-Eve_Quest3_statement,物資を取り戻してこい。
-Eve_Quest3_subtitle,物資の回収
+Eve_Quest3_statement,そこに小規模な研究施設があったの。そこから資料を回収して。そしてそこにある物資は貴重な科学技術で作られた物があるけど、今後のあなたの為に全て自由にして良いわ。
+Eve_Quest3_subtitle,小規模な研究施設に侵入し、物資を回収せよ。ただしそこのゾンビは何度でも蘇る…その元を速やかに絶たなければならない。
 EveNoWorkResponseText,やぁ、何か仕事はあるかい？
-EveNoWorkStatementText,まだ信頼できない。レイザーの信頼を得てから戻ってこい。
+EveNoWorkStatementText,あなた…誰？申し訳ないけど、他を当たって（スカウト達の信頼を得ることから始めよう）
 EveQuestAskText,何か仕事はあるか？
 EveQuestOfferText,ああ、もちろんだ。
-EveQuestOne,クエスト-試練
-EveQuestThree,クエスト-報酬
-EveQuestTwo,クエスト-親切
+EveQuestOne,真実に触れる為のテスト
+EveQuestThree,真実への報酬
+EveQuestTwo,イヴのお願い
 farmerClassRewardBundle,クラス報酬:ファーマー
 farmScarecrow,かかし
 fireaxeScrapDesc,Fireaxeは木材を収穫するのに適しており、ほとんどの武器よりも脱いている可能性が良いです。\n\n和訳修正中:fireaxeScrapDesc
@@ -1705,7 +1705,7 @@ modGunMagazineExtenderDesc,弾倉容量が増加します。
 modGunMeleeBlessedMetal,MOD:祝福金属
 modGunMeleeBlessedMetalNewDesc,他のすべてのゾンビに+ 15％のダメージをダブルダメージを与えます。\ NMOD層：3\n\n和訳修正中:modGunMeleeBlessedMetalNewDesc
 modGunMeleeFeelTheHeat,MOD:フィール・ザ・ヒート
-modGunMeleeFeelTheHeatDesc,ハンドガンの火災率を20％増加させます。それらを30％速くリロードしてください。重要な損傷：4つの連続したヒット短時間で、最後の打撃は100％の追加のダメージを与えます。\ NMOD層：3\n\n和訳修正中:modGunMeleeFeelTheHeatDesc
+modGunMeleeFeelTheHeatDesc,ハンドガンの発射速度が20％アップし、リロード速度は30％アップする。
 modGunMeleeFlammableOil,MOD:可燃性オイル
 modGunMeleeFlammableOilDesc,敵に火をつけることができます。
 modGunMeleeLiquidNitrogen,MOD:液体窒素
@@ -2411,7 +2411,7 @@ perkMagnumName,.44マグナム
 perkMagnumRank1Desc,アンロック: .44マグナム、パーツ\n[DECEA3]アンロック要件[-]: 銃器工作 Lv.3
 perkMagnumRank1Title,アイテムアンロック:Tier1
 perkMasterBuilderDesc,真のマスターのための高度な建物。\n\n和訳修正中:perkMasterBuilderDesc
-perkMasterBuilderName,レイバラー(労働者)・マスター
+perkMasterBuilderName,労働者・マスター
 perkMasterBuilderRank1Desc,チタンビルディングブロックレシピを解除します。チタンツールレシピのロックを解除します。さまざまなチタントラップレシピを解除します。工具のために10段階でクラフト層を増やします。\n\n和訳修正中:perkMasterBuilderRank1Desc
 perkMasterChefDesc,高度な効能のある、お腹にたまる食事を作って、もっと速く料理できるようになりましょう。
 perkMasterChefName,マスターシェフ
@@ -2428,8 +2428,8 @@ perkMasterMechanicRank1Desc,インパクトドライバー、オイルポンプ�
 perkMasterScavengerDesc,マスター・スカベンジャー
 perkMasterScavengerName,スカベンジャー・マスター
 perkMasterScavengerRank1Desc,砂漠のハゲタリーとチタンナックルレシピを閉じます。\ NiveReases Loot Looterから10％の数量ボーナス\ Nincreasesすべての敵の略奪が10％減少しました。\n\n和訳修正中:perkMasterScavengerRank1Desc
-perkMasterScientistDesc,マスター・サイエンティスト(科学者)
-perkMasterScientistName,サイエンティスト(科学者)・マスター
+perkMasterScientistDesc,マスター・科学者
+perkMasterScientistName,科学者・マスター
 perkMasterScientistRank1Desc,プラズマバトン、チタン狩猟ナイフ、高度なヒーリングアイテム、抗rad meds、クローバー、ジャンクドローン、ジャンクドローンモッズ、放射線レジストレシピ。羽根付きの武器、スピアー、フレームメトラ、ロケットランチャー。\n\n和訳修正中:perkMasterScientistRank1Desc
 perkMasterSecurityDesc,マスター・セキュリティ
 perkMasterSecurityName,セキュリティ・マスター
@@ -2703,7 +2703,7 @@ perkStrength,強さ
 perkStrengthDesc,強さはあなたの筋肉の尺度であり、近接兵器や道具による被害を改善します。電力攻撃は近接人を増やし、損傷を100％増加させます。\n\n和訳修正中:perkStrengthDesc
 perkStrengthName,属性:強さ
 perkTheCompletionistDesc,このPERKの資格がある場合は、MODを停止して外に出ることをお勧めします。これはあなた、MCを意味します。\n\n和訳修正中:perkTheCompletionistDesc
-perkTheCompletionistName,オールコンプリート
+perkTheCompletionistName,完璧主義者
 perkTheCompletionistRank1Desc,XP: +25%\nデスペナルティ: なし\nテクノロジーアイテムクラフトレベル: +20\n[DECEA3]アンロック要件[-]: すべてのクラスマスタリー + テクノロジークラフトパークの完了
 perkTheCompletionistRank1Title,特別ステータス効果
 perkTheHuntsmanDesc,獲物を狩り、より多くの食肉、骨、革を収穫することを得意とします。
@@ -2938,18 +2938,18 @@ quest_adminhunter,クラス: ハンター (管理者)
 quest_adminhunter_description,このクエストでは、ハンターのクラスチェインを完了した場合と同様に、すべてのXPとスキルが付与されます。アイテムは付与されません。
 quest_adminhunter_offer,このクエストでは、ハンターのクラスチェインを完了した場合と同様に、すべてのXPとスキルが付与されます。アイテムは付与されません。
 quest_adminhunter_subtitle,クラス: ハンター (管理者)
-quest_adminlaborer,クラス: レイバラー (労働者) (管理者)
+quest_adminlaborer,クラス: 労働者 (レイバラー) (管理者)
 quest_adminlaborer_description,このクエストでは、労働者のクラスチェインを完了した場合と同様に、すべてのXPとスキルが付与されます。アイテムは付与されません。
 quest_adminlaborer_offer,このクエストでは、労働者のクラスチェインを完了した場合と同様に、すべてのXPとスキルが付与されます。アイテムは付与されません。
-quest_adminlaborer_subtitle,クラス: レイバラー (労働者) (管理者)
+quest_adminlaborer_subtitle,クラス: 労働者 (レイバラー) (管理者)
 quest_adminmechanic,クラス: メカニック (管理者)
 quest_adminmechanic_description,メカニックのクラスチェインを完了したものとして、全てのXPとスキルを獲得できるクエストです。アイテムは付与されません。
 quest_adminmechanic_offer,メカニックのクラスチェインを完了したものとして、全てのXPとスキルを獲得できるクエストです。アイテムは付与されません。
 quest_adminmechanic_subtitle,クラス: メカニック (管理者)
-quest_adminscientist,クラス: サイエンティスト (科学者) (管理者)
+quest_adminscientist,クラス: 科学者 (サイエンティスト) (管理者)
 quest_adminscientist_description,このクエストでは、科学者のクラスチェインを完了した場合と同様に、すべてのXPとスキルが与えられます。アイテムは付与されません。
 quest_adminscientist_offer,このクエストでは、科学者のクラスチェインを完了した場合と同様に、すべてのXPとスキルが与えられます。アイテムは付与されません。
-quest_adminscientist_subtitle,クラス: サイエンティスト (科学者) (管理者)
+quest_adminscientist_subtitle,クラス: 科学者 (サイエンティスト) (管理者)
 quest_adminsecurity,クラス: セキュリティ (管理者)
 quest_adminsecurity_description,このクエストでは、警備のクラスチェインを完了した場合と同様に、すべてのXPとスキルが付与されます。アイテムは付与されません。
 quest_adminsecurity_offer,このクエストでは、警備のクラスチェインを完了した場合と同様に、すべてのXPとスキルが付与されます。アイテムは付与されません。
@@ -3022,24 +3022,24 @@ quest_classtraininghunter5_subtitle,レザーアーマーを作成しろ
 quest_classtraininghunter6,クラスクエスト: ハンター 6/6
 quest_classtraininghunter6_description,幸運なことに基本的なライフルと弾丸を見つけた。ゾンビや動物で射撃訓練をしよう。
 quest_classtraininghunter6_subtitle,パイプライフルでゾンビや動物を倒せ
-quest_classtraininglaborer,クラストレーニング: レイバラー (労働者)
+quest_classtraininglaborer,クラストレーニング: 労働者 (レイバラー)
 quest_classtraininglaborer_offer,このご時世、建築技術があると便利です。まずは資源を集めましょう。
-quest_classtraininglaborer1,クラスクエスト: レイバラー (労働者) 1/6
+quest_classtraininglaborer1,クラスクエスト: 労働者 (レイバラー) 1/6
 quest_classtraininglaborer1_description,運送業者なんていないから、自力でどうにかするしか無い。資源を自分で集めましょう。
 quest_classtraininglaborer1_subtitle,資源を収集しろ
-quest_classtraininglaborer2,クラスクエスト: レイバラー (労働者) 2/6
+quest_classtraininglaborer2,クラスクエスト: 労働者 (レイバラー) 2/6
 quest_classtraininglaborer2_description,木材のフレーム形状は簡単に作れて建築作業も容易です。玉石ブロックは木材よりはるかに耐久性が上がりますが、より多くの素材が必要です。フレーム形状、玉石ブロックを作りましょう。
 quest_classtraininglaborer2_subtitle,木製フレームと玉石ブロックを作成しろ
-quest_classtraininglaborer3,クラスクエスト: レイバラー (労働者) 3/6
+quest_classtraininglaborer3,クラスクエスト: 労働者 (レイバラー) 3/6
 quest_classtraininglaborer3_description,製鉄は一定の技術や炉が必要だが、くず鉄でも石製よりましな道具を作ることができる。鉄くずの道具を作りましょう。
 quest_classtraininglaborer3_subtitle,スクラップアイアンツールを作成しろ
-quest_classtraininglaborer4,クラスクエスト: レイバラー (労働者) 4/6
+quest_classtraininglaborer4,クラスクエスト: 労働者 (レイバラー) 4/6
 quest_classtraininglaborer4_description,自分の鍛冶場を作る為にもう少し資源回収に時間を割きましょう。これは後で役に立ちます。
 quest_classtraininglaborer4_subtitle,もっと資源を収集しろ
-quest_classtraininglaborer5,クラスクエスト: レイバラー (労働者) 5/6
+quest_classtraininglaborer5,クラスクエスト: 労働者 (レイバラー) 5/6
 quest_classtraininglaborer5_description,十分なガラクタを見てあなたの脳内にあるものの完成形がひらめきました！そう、炉を作りましょう。
 quest_classtraininglaborer5_subtitle,炉を作成しろ
-quest_classtraininglaborer6,クラスクエスト: レイバラー (労働者) 6/6
+quest_classtraininglaborer6,クラスクエスト: 労働者 (レイバラー) 6/6
 quest_classtraininglaborer6_description,この世界では誰もが武器を必要としている。今こそベースボールバットを作り上げましょう。
 quest_classtraininglaborer6_subtitle,ベースボールバットを作れ
 quest_classtrainingmechanic,クラストレーニング: メカニック
@@ -3062,24 +3062,24 @@ quest_classtrainingmechanic5_subtitle,もっともっと資源を収集しろ
 quest_classtrainingmechanic6,クラスクエスト: メカニック 6/6
 quest_classtrainingmechanic6_description,これでパーツはすべて揃いましたので、戦いをサポートしてくれるロボットスレッジを作りましょう。
 quest_classtrainingmechanic6_subtitle,スレッジタレットを制作しろ
-quest_classtrainingscientist,クラストレーニング: サイエンティスト (科学者)
+quest_classtrainingscientist,クラストレーニング: 科学者 (サイエンティスト)
 quest_classtrainingscientist_offer,医療品は荒廃した世界ではとても貴重であり、製作することができれば自身の生存はもちろん、他者からも羨望の目で見られるでしょう。その基本を学びましょう。
-quest_classtrainingscientist1,クラスクエスト: サイエンティスト (科学者) 1/6
+quest_classtrainingscientist1,クラスクエスト: 科学者 (サイエンティスト) 1/6
 quest_classtrainingscientist1_description,足の骨折はもちろん、捻挫でさえ最近は死活問題です。添木を作って備えましょう。
 quest_classtrainingscientist1_subtitle,添木を作れ
-quest_classtrainingscientist2,クラスクエスト: サイエンティスト (科学者) 2/6
+quest_classtrainingscientist2,クラスクエスト: 科学者 (サイエンティスト) 2/6
 quest_classtrainingscientist2_description,豪華な研究設備が無くても、医療品を作れることを理解しましょう。まずは綿花とアロエを集めましょう。
 quest_classtrainingscientist2_subtitle,綿とアロエを集めろ
-quest_classtrainingscientist3,クラスクエスト: サイエンティスト (科学者) 3/6
+quest_classtrainingscientist3,クラスクエスト: 科学者 (サイエンティスト) 3/6
 quest_classtrainingscientist3_description,出血はすぐに治療しないと死に至ります。簡単な包帯でも対処できるのでその製作を学びましょう。
 quest_classtrainingscientist3_subtitle,包帯を作れ
-quest_classtrainingscientist4,クラスクエスト: サイエンティスト (科学者) 4/6
+quest_classtrainingscientist4,クラスクエスト: 科学者 (サイエンティスト) 4/6
 quest_classtrainingscientist4_description,アロエをアロエクリームに加工して、端切れと合わせて救急包帯を作りましょう。
 quest_classtrainingscientist4_subtitle,応急処置包帯を作れ
-quest_classtrainingscientist5,クラスクエスト: サイエンティスト (科学者) 5/6
+quest_classtrainingscientist5,クラスクエスト: 科学者 (サイエンティスト) 5/6
 quest_classtrainingscientist5_description,設備無しで鎮痛剤や抗生物質を作るのはとても困難です。鎮痛剤は街のあちこちで、抗生物質の代わりになる蜂蜜は森林などで見つかります。鎮痛剤と蜂蜜を探しましょう。
 quest_classtrainingscientist5_subtitle,鎮痛剤と蜂蜜を探せ
-quest_classtrainingscientist6,クラスクエスト: サイエンティスト (科学者) 6/6
+quest_classtrainingscientist6,クラスクエスト: 科学者 (サイエンティスト) 6/6
 quest_classtrainingscientist6_description,この危険な新世界では科学者でも自分の身は自身で守らなければなりません。ジャンクバトンを作りましょう。
 quest_classtrainingscientist6_subtitle,ジャンクバトンを制作しろ
 quest_classtrainingsecurity,クラストレーニング: セキュリティ
@@ -3105,25 +3105,25 @@ quest_classtrainingsecurity6_subtitle,ナックルラップでゾンビを倒せ
 quest_classtrainingsurvivalist,クラストレーニング: サバイバリスト
 quest_classtrainingsurvivalist_offer,世界の終わりを妄想し、その準備をしていたら現実になって雑草が止まらないあなたにはこれからサバイバルを生きてもらいます。
 quest_classtrainingsurvivalist1,クラスクエスト: サバイバリスト 1/6
-quest_classtrainingsurvivalist1_description,いくつかの基本的な武器を作り始めることから始めましょう。木の弓とクラブを作りましょう。
+quest_classtrainingsurvivalist1_description,いくつかの基本的な武器を作り始めることから始めましょう。木の弓と棍棒を作りましょう。
 quest_classtrainingsurvivalist1_subtitle,木の弓とこん棒を作れ
 quest_classtrainingsurvivalist2,クラスクエスト: サバイバリスト 2/6
 quest_classtrainingsurvivalist2_description,立派なナイフが欲しいけど、お金が無いので代用品で我慢しましょう。ナイフを作りましょう。
 quest_classtrainingsurvivalist2_subtitle,ナイフを作れ
 quest_classtrainingsurvivalist3,クラスクエスト: サバイバリスト 3/6
-quest_classtrainingsurvivalist3_description,缶詰で沸かした水と火で焦がした肉で、辛うじて命をつなぐ。黒焦げ肉と缶詰のお湯を製作しましょう。
+quest_classtrainingsurvivalist3_description,汚水を鍋で煮沸し、火で焦がした肉で、命を明日へと繋いでいく。黒焦げ肉とお湯を製作しましょう。
 quest_classtrainingsurvivalist3_subtitle,焦げ肉とお湯を作れ
 quest_classtrainingsurvivalist4,クラスクエスト: サバイバリスト 4/6
-quest_classtrainingsurvivalist4_description,革の鎧を製作するのは比較的容易で、自分の身も守れます。レザーアーマーを製作しましょう。
+quest_classtrainingsurvivalist4_description,革の鎧を製作するのは比較的容易で、自分の身も守れます。レザーアーマーを製作しましょう。/n裁縫用作業台が無ければ植物繊維も必要になります。
 quest_classtrainingsurvivalist4_subtitle,レザーアーマーを製作しろ
 quest_classtrainingsurvivalist5,クラスクエスト: サバイバリスト 5/6
 quest_classtrainingsurvivalist5_description,天然資源の調達が主な仕事になりそうです。その為の道具が欲しいですね。素材を集めましょう。
 quest_classtrainingsurvivalist5_subtitle,資源を収集しろ
 quest_classtrainingsurvivalist6,クラスクエスト: サバイバリスト 6/6
-quest_classtrainingsurvivalist6_description,今、あなたはそれらすべてのリソースを持っていますそれは自分自身をいくつかのより良いツールにする時が来たのです。クラフトスクラップアイアンツール。\n\n和訳修正中:quest_classtrainingsurvivalist6_description
+quest_classtrainingsurvivalist6_description,集めた資源でより良い道具を作るべきでしょう。スクラップ製道具を作成しましょう。
 quest_classtrainingsurvivalist6_subtitle,スクラップアイアンツールを作成しろ
 quest_DFStarterQuest,一巻の終わり
-quest_DFStarterQuest_description,あなたはあなたがどこにいるのか、服や服なしではありません。たぶんバックパックは何かを使うでしょうか？\n\n和訳修正中:quest_DFStarterQuest_description
+quest_DFStarterQuest_description,記憶もなく、服もなく、どこにいるのかもわからない。リュックサックに何か役に立つものがあるかも？
 quest_DFStarterQuest_name,一巻の終わり
 quest_DFStarterQuest_subtitle,一巻の終わり
 quest_genericskillpoints,スキルポイントブック
@@ -3147,7 +3147,7 @@ quest_tier5_buried_supplies,Tier5 隠された補給品
 quest_tier5_complete_completion,生存者よ、仕事をやり遂げてくれてありがとう。大変だっただろう、これが報酬だ。今、さらに難しいクエストはない。
 quest_WhiteRiverCitizen,ホワイトリバー市民
 quest_WhiteRiverCitizen1,ホワイトリバーの市民 1/1
-quest_WhiteRiverCitizen1_description,よくやったな、生存者よ。\n\n多大なる可能性を持って、自身の有能さを示してくれた。最寄りのホワイトリバー前哨基地の場所を地図に記しておいた。そこで出会った友好的な商人と品々を売買したり、冒険の話をするといいだろう。\n\n歓迎するぞ。ノア
+quest_WhiteRiverCitizen1_description,リュックの中にはボロボロの地図が有り、現在地点と「White River」と書かれた地点までの道のりが記載されていた。そこへ行くことができれば助かる事ができるだろうか？
 quest_WhiteRiverCitizen1_description_title,ホワイトリバー市民
 quest_WhiteRiverCitizen1_subtitle,居住区への旅路
 questammo762mmBulletBall,7.62mm弾
@@ -3164,31 +3164,31 @@ Razor_Meeting_Eve,クエスト - イヴの紹介
 Razor_Meeting_Eve_completion,あら？あなたがレイザーが言ってた人ね？私はイヴ。まずは挨拶代わりにレイザーが認めた腕前をまずは見せてもらおうかしら？
 Razor_Meeting_Eve_description,レイザーとのビジネスは終わりの様だ。彼からイヴという人物に会いに行く様に勧められた。
 Razor_Meeting_Eve_offer,君の働きにはとても感謝している。ぜひイヴに会ってくれ。その腕前なら彼女を満足させられるだろう。
-Razor_Meeting_Eve_statement,Quest - Eveの紹介\n\n和訳修正中:Razor_Meeting_Eve_statement
-Razor_Meeting_Eve_subtitle,Quest - Eveの紹介\n\n和訳修正中:Razor_Meeting_Eve_subtitle
-Razor_Quest1_clear,クエスト - いくつかの電源を取得します\n\n和訳修正中:Razor_Quest1_clear
+Razor_Meeting_Eve_statement,クエスト - イヴの紹介
+Razor_Meeting_Eve_subtitle,クエスト - イヴの紹介
+Razor_Quest1_clear,隠された補給品を回収せよ
 Razor_Quest1_completion,素晴らしい。私のラッキーポテトも無事だったか。他にも依頼があるから良かったらぜひ受けてくれ。
 Razor_Quest1_description,レイザーから物資回収を依頼された。（ショベルが必要）
 Razor_Quest1_offer,スカウトが認めたその腕前で物資を回収してくれないか？
-Razor_Quest1_statement,クエスト - いくつかの電源を取得します\n\n和訳修正中:Razor_Quest1_statement
-Razor_Quest1_subtitle,クエスト - いくつかの電源を取得します\n\n和訳修正中:Razor_Quest1_subtitle
+Razor_Quest1_statement,隠された補給品を回収せよ
+Razor_Quest1_subtitle,隠された補給品を回収せよ
 Razor_Quest2_completion,君は私を喜ばす術に長けているな。これが報酬だ…もっと欲しければ良い仕事があるのだが。
-Razor_Quest2_description,レイザーの歓心を買えた様だが、大群のゾンビ討伐依頼を受けることになった。（現地でホード発生）
-Razor_Quest2_fetch,クエスト - 小規模襲撃
+Razor_Quest2_description,レイザーの歓心を買えた様だが、多数のゾンビ討伐依頼を受けることになった。
+Razor_Quest2_fetch,ゾンビの群れをこちらから襲撃せよ
 Razor_Quest2_fetch_offer,最初の仕事は無事終わったか…ところで外でうろうろしているゾンビどもを掃除してくれないか？
-Razor_Quest2_statement,クエスト - 小規模襲撃
-Razor_Quest2_subtitle,クエスト - 小規模襲撃
+Razor_Quest2_statement,ゾンビの群れをこちらから襲撃せよ
+Razor_Quest2_subtitle,ゾンビの群れをこちらから襲撃せよ
 Razor_Quest3_completion,よくやった！これで他の生存者のために安全な場所を準備できる。これが報酬だ。次の仕事を用意したから準備ができたら来てくれ。
 Razor_Quest3_description,レイザーは前哨基地候補の一つを示し、そこからゾンビを一掃する様依頼された。
-Razor_Quest3_fetch,クエスト - アウトポストをクリア\n\n和訳修正中:Razor_Quest3_fetch
+Razor_Quest3_fetch,荒野の地上げ屋
 Razor_Quest3_fetch_offer,私たちの為にゾンビを掃討したあなたが気に入ったよ。ところでより重要な作戦があるのだが…前哨地として使いたい建築物を確保してくれないか？
-Razor_Quest3_statement,クエスト - アウトポストをクリア\n\n和訳修正中:Razor_Quest3_statement
-Razor_Quest3_subtitle,クエスト - アウトポストをクリア\n\n和訳修正中:Razor_Quest3_subtitle
+Razor_Quest3_statement,施設からゾンビを追放せよ！
+Razor_Quest3_subtitle,施設からゾンビを追放せよ！
 RazorNoWorkResponseText,何か仕事はあるか？
 RazorNoWorkStatementText,いや、信用できないな…スカウトに会いに行くことを勧めるよ。
-RazorQuestOne,クエスト - いくつかの電源を取得します\n\n和訳修正中:RazorQuestOne
-RazorQuestThree,クエスト - アウトポストをクリア\n\n和訳修正中:RazorQuestThree
-RazorQuestTwo,クエスト - 小規模襲撃
+RazorQuestOne,クエスト - 隠された補給品を回収せよ
+RazorQuestThree,クエスト - 荒野の地上げ屋
+RazorQuestTwo,クエスト - ゾンビの群れをこちらから襲撃せよ
 rebarFrameArch,鉄筋アーチフレーム
 rebarFrameCTREighth,鉄筋 8 番目（中央）フレーム
 rebarFrameCTRPlate,鉄筋プレート（センター） フレーム
@@ -3283,7 +3283,7 @@ reqGuns3,必要Lv: 銃器製作3
 reqGuns4,必要Lv: 銃器製作4
 reqGuns5,必要Lv: 銃器製作5
 reqHunterLevelNot01,ハンターで利用可能
-reqLaborerLevelNot01,レイバラー (労働者)で利用可能
+reqLaborerLevelNot01,労働者 (レイバラー)で利用可能
 reqMechanicLevelNot01,メカニックで利用可能
 reqMiningTools1,必要Lv: 採掘ツール1
 reqMiningTools10,必要Lv: 採掘ツール10
@@ -3378,7 +3378,7 @@ reqWeapons2,必要Lv: 武器クラフト2
 reqWeapons3,必要Lv: 武器クラフト3
 reqWeapons4,必要Lv: 武器クラフト4
 reqWeapons5,必要Lv: 武器クラフト5
-researchNoteDesc,内容はちんぶんかんぶんだが、役に立つ何かに作り替えることができるだろう。
+researchNoteDesc,内容は意味不明だが、役に立つ何かに作り替えることができるだろう。
 ResetFactionSchematic,仮装マスター
 ResetFactionSchematicDesc,これを読んで派ionをリセットしてください！\n\n和訳修正中:ResetFactionSchematicDesc
 resourceBioFuel,バイオ燃料
@@ -3520,7 +3520,7 @@ sc_Melee,救援物資
 sc_Ranged,救援物資
 scavengerClassRewardBundle,クラス報酬: スカベンジャー
 scifiAIOTDesc,すべてがレーザーで優れています！物事を修理したり分解するために使えます。\n\n和訳修正中:scifiAIOTDesc
-ScifiBench,作業台: レーザー
+ScifiBench,レーザー作業台
 ScifiBenchDesc,すべてがレーザーで優れています！通常または金属製のワークベンチで作られた商品を作るために使用することができます。\n\n和訳修正中:ScifiBenchDesc
 SciFiChair,コンフィーチェア
 ScifiCrate,収納クレート
@@ -3544,7 +3544,7 @@ scrapIronLogSpike4,鉄材ログスパイク
 scrapMacheteDesc,ゾンビの手足を刻んで肉のためにぴったりの肉のために素晴らしい。\n\n和訳修正中:scrapMacheteDesc
 scrapSkillDesc,これは、あなたがあなたに教えるように設計された本からページをリッピングするときに起こることです。多分彼らは役に立ちますか？\n\n和訳修正中:scrapSkillDesc
 scrapTitaniumDesc,あなたが手を入れることができる最高の生のリソース。軽くて丈夫で丈夫です。\n\n和訳修正中:scrapTitaniumDesc
-SeasonedSurvivor,経験豊富な生存者
+SeasonedSurvivor,経験豊富なサバイバー、イヴ
 securityClassRewardBundle,クラス報酬: セキュリティ
 seedAppleDesc,アップルの種彼らはリンゴの木を育てます。\n\n和訳修正中:seedAppleDesc
 seedBananaDesc,バナナの種彼らはバナナの木を育てます。\n\n和訳修正中:seedBananaDesc
@@ -3745,7 +3745,7 @@ traderHughFaction,友好度(トレーダーヒュー)
 TraderHughMasterHunter,ハンターマスタリー (100000デューク)
 TraderHughMasterLaborer,労働者マスタリー (100000デューク)
 traderJenFaction,友好度(トレーダージェン)
-TraderJenMasterScientist,サイエンティスト (科学者)マスタリー (100000デューク)
+TraderJenMasterScientist,科学者 (サイエンティスト)マスタリー (100000デューク)
 traderJoelFaction,友好度(トレーダージョエル)
 TraderJoelMasterSecurity,セキュリティマスタリー (100000デューク)
 TraderJoelMasterSurvivalist,サバイバリストマスタリー (100000デューク)
@@ -4147,7 +4147,7 @@ vehicleWillyJeepToplessPurpleplaceableDesc,今まで以上に風で髪がなび�
 vehicleWillyJeepToplessRed,ウィリージープ (オープン)
 vehicleWillyJeepToplessRedplaceable,ウィリージープ (オープン)
 vehicleWillyJeepToplessRedplaceableDesc,今まで以上に風で髪がなびく・・・
-vehicleworkstation,作業台 (メカニック)
+vehicleworkstation,メカニック作業台
 vehicleWorkTruck,作業トラック
 vehicleWorkTruckaccessories,作業トラック・アクセサリー
 vehicleWorkTruckaccessoriesDesc,作業トラック用のクラフト部品です。
@@ -4161,7 +4161,7 @@ wanderingTrader,さまようトレーダー
 WatchDesc,手袋に組み込む改造パーツで時刻が表示されます。
 weldingTorchDesc,溶接トーチです。研究デスクで使用します。
 wellness,健康値
-wellnessTip,あなたの最大ヘルスとスタミナは現在ウェルネスと呼ばれる目に見えない統計に基づいています。[ - ]ゲームの開始時に、あなたは100のウェルネスとさまざまな行動があり、このようにさまざまな行動が悪くなるでしょう。死にかけているのはあなたに10のウェルネスを失い、それに応じて最大ヘルスとスタミナを減らします。これは永続的です。あなたの健康は50未満に減少することはできません。しかし、あなたの健康を提起する行動がいくつかあります。ヘルスナッツとあなたの陸上競技のスキルと同様に、食べ物、飲み物、そしていくつかの薬はそれを増やします。ウェルネスを高めるアイテムは、UIで彼らがどれだけ上昇するかに注意します。同様に、飲食せずに長時間が経過すると感染して放射線の線量を取っています。最大ヘルスとスタミナは300ですが、その限界を壊す方法があるかもしれません...
+wellnessTip,あなたの最大ヘルスとスタミナは現在ウェルネスと呼ばれる目に見えない統計に基づいています。ゲームの開始時に、あなたは100のウェルネスとさまざまな行動があり、このようにさまざまな行動が悪くなるでしょう。死にかけているのはあなたに10のウェルネスを失い、それに応じて最大ヘルスとスタミナを減らします。これは永続的です。あなたの健康は50未満に減少することはできません。しかし、あなたの健康を提起する行動がいくつかあります。ヘルスナッツとあなたの陸上競技のスキルと同様に、食べ物、飲み物、そしていくつかの薬はそれを増やします。ウェルネスを高めるアイテムは、UIで彼らがどれだけ上昇するかに注意します。同様に、飲食せずに長時間が経過すると感染して放射線の線量を取っています。最大ヘルスとスタミナは300ですが、その限界を壊す方法があるかもしれません...
 wellnessTip_title,DF: 健康値
 WheatDesc,ベーキングで便利です。
 WhiteRiverFactionSchematic,仮装マスター
@@ -4175,7 +4175,7 @@ workingGraniteSinkDesc,近くに水源を持っていないのであれば便利
 workingOvenDesc,電源さえ確保できれば調理器具不要で様々な飲食物が調理できます。
 workingutilitySinkDesc,近くに水源が無い場合に便利です。
 workingWallOvenDesc,電源さえ確保できれば調理器具不要で様々な飲食物が調理できます。
-workstationMetal,作業台 (高度)
+workstationMetal,高度作業台
 workstationMetalDesc,金属製ワークステーションでは、メタルアイテム、特に鋼製のものを作り出すことができます。
 workstationTailor,仕立屋のベンチ
 workstationTailorDesc,裁縫用ワークステーションでは布や革製の様々な物が作れます。
@@ -4555,3 +4555,21 @@ zombieYoWeak,汚染死骸 (弱体化)
 zombieYoWeak,汚染死骸 (弱体化)
 zombieYoWeak,汚染死骸 (弱体化)
 TwitchAction_TeleportToBackpack,バックパック
+timeAbbreviationHours,H
+timeAbbreviationMinutes,M
+timeAbbreviationSeconds,S
+lblLevel,Level: {0}
+xuiDayTimeLong,Day: {0} Time: {1:00}:{2:00}
+compassDirectionE,E
+compassDirectionN,N
+compassDirectionNE,NE
+compassDirectionNW,NW
+compassDirectionS,S
+compassDirectionSE,SE
+compassDirectionSW,SW
+compassDirectionW,W
+statStaminaMaxBlockage,MAXスタミナ減少
+statHealthMaxBlockage,MAX体力減少
+statBuffResistance,アーマーCH耐性
+statBlockDamage,対物ダメージ
+statCarryCapacity,運搬許容量
