@@ -1,22 +1,22 @@
 # Darkness Falls Mod Power Up Kit - ダークネスフォールズ・パワーアップキット
 
 # Introduction
-Improved Japanese localization and added missing localize data for Japanese survivor.
+Improved Japanese localization and added missing localize data for Japanese survivor.<br>
 ダークネスフォールズMODを初心者の方でも楽しめるように情報を追加するMODです。日本語和訳については、全て手動で和訳を実施しておりますので、一部開発者の意図と合わない訳があるかもしれません。未訳部分は随時翻訳を行っています。原則バニラの書式に合わせようとはしていますが、スキル等便利上事務的な書式に変更している場合もあります。アップデートは原則MODのアップデート後速やかに行われます。
 
 # Version
 Darkness Falls Mod Ver4.03に対応
 
 # Contents
-詳細かつ自然な日本語訳、欠落しているローカライズデータの追加
-アクションスキルレベル・経験値等のHUD表示対応
-日本語環境でプレイする際の表示改善
+詳細かつ自然な日本語訳、欠落しているローカライズデータの追加<br>
+アクションスキルレベル・経験値等のHUD表示対応<br>
+日本語環境でプレイする際の表示改善<br>
 
 # Future Updates
-ジャーナルによる情報追加
-日本語訳の追加修正
-アクションスキル・バランス調整
-日本語環境でプレイする際の表示改善
+ジャーナルによる情報追加<br>
+日本語訳の追加修正<br>
+アクションスキル・バランス調整<br>
+日本語環境でプレイする際の表示改善<br>
 
 # Links
 1. Website: https://7daystodie.jp/ *Create database, Wikis and more.
