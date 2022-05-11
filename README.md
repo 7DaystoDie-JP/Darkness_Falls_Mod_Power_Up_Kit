@@ -1,11 +1,11 @@
-# Darkness Falls Mod Power Up Kit - ダークネスフォールズ・パワーアップキット
+# ダークネスフォールズ・パワーアップキット
 
 # Introduction
 Improved Japanese localization and added missing localize data for Japanese survivor.<br>
 ダークネスフォールズMODを初心者の方でも楽しめるように情報を追加するMODです。日本語和訳については、全て手動で和訳を実施しておりますので、一部開発者の意図と合わない訳があるかもしれません。未訳部分は随時翻訳を行っています。原則バニラの書式に合わせようとはしていますが、スキル等便利上事務的な書式に変更している場合もあります。アップデートは原則MODのアップデート後速やかに行われます。
 
 # Version
-Darkness Falls Mod Ver4.03に対応
+Darkness Falls Mod Ver4.03A-DEV-B2までに対応
 
 # Contents
 詳細かつ自然な日本語訳、欠落しているローカライズデータの追加<br>
