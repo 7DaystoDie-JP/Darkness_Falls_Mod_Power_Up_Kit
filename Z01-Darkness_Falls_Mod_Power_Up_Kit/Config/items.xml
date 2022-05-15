@@ -1,0 +1,26 @@
+<configs>
+	<append xpath="/items/item[@name='DFScavengerMasteryBook']">
+		<property name="PickupJournalEntry" value="DFclasscivilianMastertip" />
+	</append>
+	<append xpath="/items/item[@name='DFLaborerMasteryBook']">
+		<property name="PickupJournalEntry" value="DFclasslaborerMastertip" />
+	</append>
+	<append xpath="/items/item[@name='DFMechanicMasteryBook']">
+		<property name="PickupJournalEntry" value="DFclassmechanicMastertip" />
+	</append>
+	<append xpath="/items/item[@name='DFScientistMasteryBook']">
+		<property name="PickupJournalEntry" value="DFclassscientistMastertip" />
+	</append>
+	<append xpath="/items/item[@name='DFSecuritytMasteryBook']">
+		<property name="PickupJournalEntry" value="DFclasssecurityMastertip" />
+	</append>
+	<append xpath="/items/item[@name='DFSurvivalistMasteryBook']">
+		<property name="PickupJournalEntry" value="DFclasssurvivalistMastertip" />
+	</append>
+	<append xpath="/items/item[@name='DFFarmerMasteryBook']">
+		<property name="PickupJournalEntry" value="DFclassfarmerMastertip" />
+	</append>
+	<append xpath="/items/item[@name='DFHunterMasteryBook']">
+		<property name="PickupJournalEntry" value="DFclasshunterMastertip" />
+	</append>
+</configs>

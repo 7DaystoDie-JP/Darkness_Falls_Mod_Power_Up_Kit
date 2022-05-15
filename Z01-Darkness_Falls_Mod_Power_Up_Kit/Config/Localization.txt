@@ -45,7 +45,7 @@ animalBoarKill,イノシシ
 animalBoarWild,イノシシ
 animalBossGrace,グレース
 animalBreedingTip,(α版)将来的には交配、産卵等の動物飼育の過程が楽しめます。
-animalBreedingTip_title,動物飼育
+animalBreedingTip_title,[C0392B]DF[-] - 動物飼育
 animalBull,雄牛
 animalCow,乳牛
 animalCoyote,コヨーテ
@@ -469,7 +469,7 @@ DFammoShotgunCoilslugBundle,ショットガン・スラグ弾薬箱(コイル)
 DFanimalCoopAndSnare,動物用罠は屋外の草むらに設置しなければなりません。屋内やプレイヤー作成のブロック状では機能しません。
 DFanimalCoopAndSnare_title,動物小屋と罠
 DFanimalFeed,動物用飼料
-DFAnimals,Animal husbandry is the art of caring for, and breeding animals. Since you have just found a baby animal, there are some basics that you need to know in order to become successful in breeding your own farm animals. First thing to note is that all animals need beds, food and water in order to survive. Haybales are good beds and water can be provided by simply digging a hole and filling it up with water. However, animals do consume water. Each type of animal also has a different type of food they eat, and it must be in the 'Animal Food Storage' box for them to find it. The food list is as follows.  Boar: Plant Fibers, Corn, Corn on the Cob. Goat: Plant Fibers, Corn, Corn on the Cob, Yucca. Sheep: Plant Fibers, Corn, Corn on the Cob, Yucca. Cow: Plant Fibers, Corn, Corn on the Cob, Yucca. Chicken: Corn, Corn Meal. Wolf: Raw Meat, Rotten Flesh.  The 'Animal Water Storage' box is used if you wish to have animals drink jars of water instead of just having a hole in the ground. Chickens also need a chicken nest in order to lay eggs for you. Other animals are primarily just a source of food, but wolves can be convinced to follow you and act as guards with a piece of raw meat.\n\n和訳修正中:DFAnimals
+DFAnimals,動物飼育は、手入れのような芸術であり、繁殖する動物です。赤ちゃんの動物を見つけたばかりなので、自分の家畜を繁殖させるために知っておくべき基本がいくつかあります。最初に注意すべきことは、すべての動物が生き残るためにベッド、食物、水を必要とすることです。ヘイバレスは良いベッドであり、穴を掘って水で満たすだけで水を供給できます。しかし、動物は水を消費します。動物の各タイプには、食べる食物の異なる種類もあり、それを見つけるには「動物の食品貯蔵」ボックスにあるに違いありません。フードリストは次のとおりです。イノシシ：植物繊維、トウモロコシ、トウモロコシの穂軸。ヤギ：植物繊維、トウモロコシ、穂軸のトウモロコシ、ユッカ。羊：植物繊維、トウモロコシ、穂軸のトウモロコシ、ユッカ。牛：植物繊維、トウモロコシ、穂軸のトウモロコシ、ユッカ。鶏肉：コーン、コーンミール。オオカミ：生肉、腐った肉。動物に地面に穴を開けるのではなく、水の瓶を飲ませたい場合は、「動物の貯水」ボックスが使用されます。鶏はあなたのために卵を産むために鶏の巣も必要です。他の動物は主にただの食物の源ですが、オオカミはあなたに従って、生肉を持って警備員として行動することを確信することができます。\n\n和訳修正中: DFAnimals
 DFAnimals_title,畜産
 DFanimalSnare,動物用罠
 DFantirad,抗放射線薬
@@ -598,8 +598,8 @@ DFChesseSchematic,レシピ「チーズ」
 DFchickenCoop,鶏舎(空)
 DFChickenCoopFull,鶏舎(満)
 DFchickenNest,鶏の巣
-DFCivilan,The scavenger class is for folks who enjoy going out and looting. You gain access to the Wasteland Treasures and Lucky Looter perks, which helps in scavenging, plus Charismatic Nature to help with trader quest rewards and prices. Please see perk descriptions for what they do.\n\nClass Quest Rewards.\nRewards are earned when the listed quest number is finished.\n\nQuest 1: Flannel shirt, denim pants, worn boots, bandana, +1 lucky looter. \nQuest 2: 2 murky water, 10 meat.\nQuest 3: 2 painkillers, 2 first aid bandages, +1 wasteland treasures. \nQuest 4: +1 charismatic nature. \nQuest 5: Flashlight and +1 skill point. \nQuest 6: Pipe Pistol, 100 9mm ammo and +1 skill point.\n\nUpon completion of the final class quest, the scavenger gains +10 crafting tier to pistol weapons. Check the mastery perk for further unlocks.\n\n和訳修正中:DFCivilan
-DFCivilan_title,クラス:スカベンジャー
+DFCivilan,概要\n戦闘能力を振り切って生存に特化したクラス。その為かクラスクエストもバニラのチュートリアルクエストに似ている為、簡単に終わる。\n生き残る為に特化したクラス故に得られるスキルも解禁されたレシピも非常に生き残る為に役立つ物ばかりである…が、一方である程度慣れた人ならば無くてもなんとかなる物ばかりというのも悩ましい所。また時計改造パーツはメタルワークステーションを、ジャーキーはテイラーニングワークステーションが必要で更にツールの設置を要求される為にその確保が悩ましい。\n悩ましいが初心者向きのクラスではあるのでこの過酷な世界に慣れる為に選択するのも有りだろう。
+DFCivilan_title,[C0392B]DF[-] - スカベンジャークラス
 DFCivilianAdminBook,スカベンジャーブック(管理者用)
 DFCivilianClassBook,クラス:スカベンジャー
 DFClassPaper,クラス用ペーパー
@@ -637,6 +637,7 @@ DFcombatAxeSchematicDesc,コンバット・アクスの設計図です。
 DFCombatShotgun,コンバット・ショットガン
 DFCombatShotgunBook,設計図「コンバット・ショットガン」
 DFcookedCannedFoodDesc,缶詰のクラフトは少々コストがかかるかもしれませんが、食中毒の可能性はなくなります。
+DFcookedCannedFoodDesc,缶詰のクラフトは少々コストがかかるかもしれませんが、食中毒の可能性はなくなります。
 DFdartTrapTitanium,チタンダートトラップ
 DFDBShotgunBookDesc,パーク: ショットガンクラフトを解除します。
 DFDEagleFrame,デザートイーグル:レシーバー
@@ -655,8 +656,8 @@ DFEnglishBreakfastDesc,肉、トースト、トマト！最高の一日を！
 DFenrichedUranium,濃縮ウラン
 DFEriksHammer,[DECEA3]エリックのハンマー[-]
 DFEriksHammerDesc,大きなハンマーよりもバグを退治する方法は何ですか？75％の確率でショックバフ与えることができます。
-DFFarmer,Crops are the life of the farmer. They can create and plant seeds for pretty much anything available along with extra cooking recipes to use those new crops. Non-farmers do get limited access to some crops via perk, and can still craft some food items.\n\nClass Quest Rewards.\nRewards are gained when the listed quest number is finished.\n\nQuest 1: Cowboy hat, t-shirt, denim pants, cowboy boots, +1 Living off the Land perk.\nQuest 2: 2 boiled water, 2 beef rations, +1 Living off the Land perk.\nQuest 3: 2 first aid bandage and +1 Sous Chef perk.\nQuest 4: No reward.\nQuest 5: +1 Sous Chef perk.\nQuest 6: Pipe Shotgun and 50 shells.\n\nUpon completion of the final class quest, the farmer gains +10 crafting tier to shotguns's and hoe's. Check the mastery perk for further unlocks.\n\n和訳修正中:DFFarmer
-DFFarmer_title,クラス:ファーマー
+DFFarmer,概要\n農業、料理、ショットガンに特化したクラス。最も早い段階で食料難解決するのでそこから徐々に行動を広げるスタイルになる。良い料理は健康値の底上げに繋がるので接近戦になりやすいショットガンとの相性は良いだろう。一方でショットガンの欠点である対物特効はクラススキルの向上で大きくなりやすいのでクエストでの回収物や防衛拠点の足場を壊して自滅しない様、注意すべき。初心者向きではあるが、DFの世界ではのんびりライフはなかなか難しいので最初に選択すべきクラスかと問われると悩ましい所。a20バニラでは耕作区画が多数存在する建築物が多いのでそれを活かすことができるがDFでは水源確保も条件なのでそれも忘れない様。自生する植物はa20版DFから定期的に再生成される様になった特徴もある。一方で畜産システムは機能していない。
+DFFarmer_title,[C0392B]DF[-] - ファーマークラス
 DFFarmerAdminBook,ファーマーブック(管理者用)
 DFFarmerClassBook,クラス:ファーマー
 DFFarmerMasteryBook,ファーマーブック(マスタリー)
@@ -728,7 +729,7 @@ DFfutureTechBook,未来こそ今だ！
 DFGenericSchematic,設計図「一般アイテム」
 DFGenericSchematicDesc,一般的な設計図用ペーパー。設計図の作成等に使用します。
 DFgrilledYucca,焼きユッカ
-DFgrowingCropsTip,Growing crops in Darkness Falls requires a little extra work. The Scrap Iron Hoe or Iron Hoe can prepare ground for you to plant on, or you can use the farm plot block. Using the hoe will change the dirt next to the block you upgraded into normal dirt, so bear that in mind and plan accordingly.\n\nAll crops require water within 4 blocks or they will not grow. This does not apply to trees.\n\nThe farmer class has access to Irrigation systems, which replaces the need for water to be near the crops, but crops must be within 2 blocks of an irrigation pipe in any direction.\n\nThe Living Off The Land perk will increase the amount of crops you get when you punch them. Pressing the action key to pick up plants does not benefit from this perk.\n\n和訳修正中:DFgrowingCropsTip
+DFgrowingCropsTip,暗闇の滝で作物を栽培するには、少し余分な作業が必要です。スクラップアイアンホーまたはアイアンホーは、あなたが植えるための地面を準備することができます。または、農場のプロットブロックを使用することができます。 Hoeを使用すると、通常の汚れにアップグレードされたブロックの隣の汚れが変更されるため、それに念頭に置いてそれに応じて計画します。これは木には適用されません。\ n \ n農家クラスは灌漑システムにアクセスでき、水が作物の近くにある必要がありますが、作物は任意の方向の灌漑パイプから2ブロック以内でなければなりません。\ n \ n the土地の特典から離れて生活すると、作物をパンチすると作物の量が増えます。アクションキーを押して植物を拾うことは、この特典の恩恵を受けることはありません。\n\n和訳修正中: DFgrowingCropsTip
 DFgrowingCropsTip_title,農業と作物
 DFgunBlackSky,[DECEA3]ブラック・スカイ[-]
 DFgunBlackSkyDesc,伝説のデザートイーグル。
@@ -754,8 +755,8 @@ DFgunTazasBow,タザ族の弓
 DFgunTazasBowDesc,伝説的なネイティブアメリカンハンターが使用していた弓。
 DFgunTitaniumCrossbow,チタンクロスボウ
 DFgunWinchesterRifle,ウィンチェスターライフル
-DFHunter,Like the farmer, the hunter chooses to live off the land. Unlike the farmer, they are adept and hunting and skinning animals and then using those resources.\n\nClass Quest Rewards.\nRewards are gained when the listed quest number is finished.\n\nQuest 1: T-shirt, denim pants, worn boots, Cowboy Hat.\nQuest 2: 2 murky water, 2 chicken rations, +1 The Huntsman Perk.\nQuest 3: 2 first aid bandage.\nQuest 4: Scrap Machete, +1 The Huntsman Perk, +3 Leather Armor Perk.\nQuest 5: Pipe Rifle, 100 7.62mm Bullets, +1 From The Shadows Perk.\nQuest 6: Hunting Rifle, 50 ammo and silencer.\n\nUpon completion of the final class quest, the hunter gains +10 crafting tier to rifle's and bows. Check the mastery perk for further unlocks.\n\n和訳修正中:DFHunter
-DFHunter_title,クラス:ハンター
+DFHunter,概要\nステルス、遠距離射撃、追跡、動物の解体に特化したクラス。 クラスクエストは動物を狩る事が一番大変。序盤では小動物相手なので逃げられやすいし、中型大型動物は逆に喰われる事になりかねないのである程度慣れた人向けでしょう。 一方でそこを乗り越えると高い火力と食糧確保が同時に達成しやすくなり、難易度が一気に下がります。 極めると最終的にレーザーライフルによるステルスヘッドショットは全武器で最も火力を誇り、ドーピング:?:すれば悪魔族もそれほど怖くない。\n欠点はアスレチック系のアクションスキルに依存しやすいのでしっかり上げないと実力が発揮しきれないこと。 もう一つの欠点はa20版バニラによるステルス下降修正の為、ステルスが万能では無くなり夜間や屋外ではより慎重な立ち回りを求められます。 それでも慣れてしまえばプレイ効率が跳ね上がるのでトレーダーから炉や作業台の製作解禁や現物確保できるイメージさえ掴めば（レベルだけは必要ですが）労働者クラスが無くてもやっていける逞しさがあります。
+DFHunter_title,[C0392B]DF[-] - ハンタークラス
 DFHunterAdminBook,ハンターブック(管理者用)
 DFHunterClassBook,クラス:ハンター
 DFHunterMasteryBook,ハンターブック(マスタリー)
@@ -776,8 +777,8 @@ DFKeycardGreen,キーカード（緑）
 DFKeycardRed,キーカード（赤）
 DFKnifesBook,設計図「肉屋のツール」
 DFKnifesBookDesc,パーク: 肉屋のツールを解除します。
-DFLaborer,The construction specialist. Laborer's are adept at making tools, gathering resources and turning them into useful construction materials. Non-laborer's do not get access to titanium building blocks, and gain access to Iron, Steel and Concrete at a higher player level.\n\nClass Quest Rewards.\nRewards are gained when the listed quest number is finished.\n\nQuest 1: T-shirt, brown denim pants, worn boots, mining helmet.\nQuest 2: 2 murky water, 2 beef rations, +1 Hammer and Forge Perk.\nQuest 3: 2 first aid bandage.\nQuest 4: +1 Hammer and Forge Perk.\nQuest 5: +1 Skill Point.\nQuest 6: Nailgun item.\n\nUpon completion of the final class quest, the laborer gains +10 crafting tier to all tools. Check the mastery perk for further unlocks.\n\n和訳修正中:DFLaborer
-DFLaborer_title,クラス:労働者 (レイバラー)
+DFLaborer,概要\n建築、アイテム製作に特化したクラスです。クラスクエストも簡単な部類で、クエストを進めつつ初日の避難場所を作ることもできます。\n戦闘能力に付いては製作した武器で使いやすい物、強力な物を作って補えます。\nまた他のクラスでもこのクラスで作れる作業台を必要とする事が多いので、他のクラスとの相乗効果が最も見込めるクラスでもあります。\n欠点としては採鉱や伐採して生産素材を集めることになるのでオーガを得る前は空腹に苦しみやすく、オーガやチェーンソーが手に入ると一気にレベルが上がって強力なゾンビや悪魔達との遭遇がプレイヤー自身の実力が伴う前に出会う可能性が高いことでしょう。また武器防具のレシピは他のクラスか設計図が必須なのでその確保も課題です。\nただし全体的に見て、初心者向けの職業であり最初に取るクラスとして労働者を選ぶ人は多いのではないでしょうか？
+DFLaborer_title,[C0392B]DF[-] - 労働者クラス
 DFLaborerAdminBook,労働者ブック(管理者用)
 DFLaborerClassBook,クラス:労働者 (レイバラー)
 DFLaborerMasteryBook,労働者ブック(マスタリー)
@@ -801,9 +802,9 @@ DFLeverActionBook,パーク: レバーアクションライフルを解除しま
 DFloadingTipStoneHammer,石のハンマーは非常に基本的な武器として使用することができますが、それはブロックを修復してアップグレードすることです。
 DFloadingTipStoneHammer_title,[DECEA3]DF[-]: ストーンハンマー
 DFloadingTipTraderFaction,トレーダーとは個別の友好度が存在し、クエストを完了させることで高めることができます。プレイヤーステータス画面で確認しましょう。
-DFloadingTipTraderFaction_title,[DECEA3]DF[-]: トレーダー派閥
+DFloadingTipTraderFaction_title,[C0392B]DF[-]: トレーダー派閥 
 DFloadingTipTraderSkills,トレーダーはあなたが所属する派閥に応じて、特典とレシピを教えることができます。各トレーダーにはユニークなリストがありますので、それらすべてのためにクエストをこなす価値があります。
-DFloadingTipTraderSkills_title,[DECEA3]DF[-]: トレーダー育成プログラム
+DFloadingTipTraderSkills_title,[C0392B]DF[-]: トレーダー育成プログラム
 DFloadingTipWellness,健康度はあなたの最大健康とスタミナを決定します。ケガやデスは減少要因ですが、飲食等で増加させることもできます。
 DFloadingTipWellness_title,[DECEA3]DF[-]: 健康度
 DFLockableClothingRack,衣類ラック(ロック可)
@@ -884,8 +885,8 @@ DFMeatBurrito,ミート・ブリトー
 DFMeatBurritoDesc,特に辛くはありません。ちょっとつまむに最高の食事です。
 DFMeatPizza,ミート・ピザ
 DFMeatPizzaDesc,ピザはさまざまな種類の肉で覆われています。
-DFMechanic,Master of motorized vehicles. The mechanic gets access to the bicycle and minibike earlier than anyone else, and gain more resources from disassembling items with a wrench. Non-mechanics can learn to build a bicycle and minibike from books, but cannot build the motorbike or 4x4.\n\nClass Quest Rewards.\nRewards are gained when the listed quest number is finished.\n\nQuest 1: ZU Football T-Shirt, Overalls, Ball Cap, Worn Boots.\nQuest 2: Wrench, +1 Salvage Operations Perk.\nQuest 3: 2 first aid bandages, +1 Grease Monkey Perk.\nQuest 4: 2 murkey water, 2 chicken rations.\nQuest 5: +1 Robotics Inventor Perk.\nQuest 6: Pipe Machinegun and 100 ammo.\nUpon completion of the final class quest, the mechanic gains +10 crafting tier to blunt melee weapons, smg's and salvage items. Check the mastery perk for further unlocks.\n\n和訳修正中:DFMechanic
-DFMechanic_title,クラス:メカニック
+DFMechanic,概要\n車両作成と各種タレット・ドローン及び解体による資源獲得に特化したクラスです。\nクラスクエストは簡単な上にレンチが手に入りますので解体が捗ります。一方、自力で車両を部品から作り上げていくと各種作業台が必要なので労働者クラスを得るか、レベルを上げて特殊技能で補うかが必要なのでそこをどうするかを考えなければなりません。DFの世界は広いマップがメインなので足となる車両は必須なので早めに確保したいですが、一番最初にこのクラスを選択するとそこが一番のネックとなるでしょう。各種タレットは手間が掛かりますがDFにおいても優秀で、改造パーツとことん組み込み、スキルで3台同時に展開した時の頼もしさはバニラ以上でしょう。とは言え、他のクラスと比較すると上級者向きであり、最初に選択すべきクラスであるか？と問われると初心者にはオススメできないです。ふたつ目のクラス選択で視野に入れるべきでしょう。
+DFMechanic_title,[C0392B]DF[-] - メカニッククラス
 DFMechanicAdminBook,メカニックブック(管理者用)
 DFMechanicClassBook,クラス:メカニック
 DFMechanicMasteryBook,メカニックブック(マスタリー)
@@ -1056,8 +1057,8 @@ DFrifleParts,汎用ライフル:パーツ
 DFrifleStock,汎用ライフル:ストック
 DFroastDinner,サンデーロースト
 DFScavengerMasteryBook,スカベンジャーブック(マスタリー)
-DFScientist,More at home in the lab than the wilderness, the scientist can make a variety of chemicals and healing items. Non-scientists can still make more basic healing items, like sterile bandages and splints.\n\nClass Quest Rewards.\nRewards are gained when the listed quest number is finished.\n\nQuest 1: White jacket, t-shirt, suit pants, suit shoes.\nQuest 2: +1 Physician Perk.\nQuest 3: 1 murky water, 2 chicken rations, +1 Yeah Science Perk.\nQuest 4: Scrap Machete Item.\nQuest 5: +1 Physician Perk.\nQuest 6: Crowbar.\n\nUpon completion of the final class quest, the scientist gains +10 crafting tier to bladed weapons and the flamethrower. Check the mastery perk for further unlocks.\n\n和訳修正中:DFScientist
-DFScientist_title,クラス:科学者 (サイエンティスト)
+DFScientist,概要\n医薬品、化学薬品、爆発物に特化したクラスです。アロエ収集を要求されるクラスクエストは砂漠以外では達成が困難ですが、トレーダー内にいるスカウト達がアロエを販売していることがよくあるので簡単な部類になる。各種医薬品や弾薬用の火薬、マスターすれば放射能汚染区域でも出歩けるアイテムを作り出せるのでプレイスタイルにもよりますが序盤から終盤まで幅広く活躍できます。爆発物の火力向上は探索では不向きだが、中盤終盤でのブラッドムーンホードでは量や質で圧倒してくる集団を蹴散らすのに最適解である。クラスクエストは簡単だが、過酷な環境下のDFでは最初の選択するクラスとしては優先度が低目で中盤以後まで我慢してマスタークラスまで一気に獲得して対放射線アイテムを作るか、ティア5トレーダークエストをハシゴして対放射線改造パーツを揃えるかのいずれかを視野に入れないと中途半端な状態で足踏みをすることになりかねない。
+DFScientist_title,[C0392B]DF[-] - 科学者クラス
 DFScientistAdminBook,科学者 (サイエンティスト)ブック(管理者用)
 DFScientistClassBook,クラス:科学者 (サイエンティスト)
 DFScientistMasteryBook,科学者 (サイエンティスト)ブック(マスタリー)
@@ -1068,8 +1069,8 @@ DFScoutUnlocked,ミリタリースカウト
 DFScrapArmorBook,設計図「スクラップアーマー」
 DFscrapSkill,スキルノート(バンドル)
 DFscrapTitanium,チタン
-DFSecurity,Members of the security class are adept at shrugging off painful blows and using armor. Most of their armor can be made by non-security specialists, but they're very good at making automatic weapons.\n\nClass Quest Rewards.\nRewards are gained when the listed quest number is finished.\n\nQuest 1: BDU shirt, BDU pants, worn boots, ball cap.\nQuest 2: 1 murky water, 2 chicken rations, 2 first aid bandages, +1 Pain Tolerance Perk.\nQuest 3: Pipe Pistol, 100 9mm bullets.\nQuest 4: +1 Flurry of Blows Perk.\nQuest 5: +1 Pain Tolerance Perk.\nQuest 6: 2 muffled connectors mods, 2 improved fittings mods, 2 armor plating mods and +1 skill point.\nUpon completion of the final class quest, the security specialist gains +1 crafting tier to automatic weapons, titanium armor and military armor. Check the mastery perk for further unlocks.\n\n和訳修正中:DFSecurity
-DFSecurity_title,クラス:セキュリティ
+DFSecurity,概要\n戦闘、特に防御力に特化したクラス。クラスクエストも簡単な部類で、クエストを進めつつ簡単な防具を作ることもできますが、木製棍棒でゾンビを狩る必要があるので序盤で終わらせた方が効率が良い。\n一方、このクラスでは武器に関するスキルは近接武器のみなので射撃武器についてはアクションスキルで補う必要があります。\n近接武器主体は最終的に悪魔ゾンビ系やベヒモス及びインキュパスなどが登場する頃には役に立たない物になりますが、スキルで得られる防具類の製作修理品質アップはこのクラスがメインになるので後々の戦闘での生命維持への投資となる。\nマスタークラスになるとM60マシンガンとタクティカルリギングを製作できる様になるのでそれを狙うのも有り。
+DFSecurity_title,[C0392B]DF[-] - セキュリティクラス
 DFSecurityAdminBook,セキュリティブック(管理者用)
 DFSecurityClassBook,クラス:セキュリティ
 DFSecuritytMasteryBook,セキュリティブック(マスタリー)
@@ -1144,10 +1145,10 @@ DFstick,棒
 DFstickyApple,粘着性アップル
 DFSupplyCrateDead,サプライクレート
 DFSupplyCrateDeadLoot,サプライクレート
-DFSurvivalist,The survivalist doesn't get a huge amount of perks for free, but they do learn how to make tools from scrap earlier than anyone else. The watch is also a very useful too.\n\nClass Quest Rewards.\nRewards are gained when the listed quest number is finished.\n\nQuest 1: T-Shirt, BDU pants, cowboy boots, cowboy hat.\nQuest 2: 2 murky water, 2 beef rations, 10 raw meat, +3 Leather Armor Perk.\nQuest 3: 2 first aid bandage, 2 painkillers, +1 skill point.\nQuest 4: No Reward.\nQuest 5: Scrap Fireaxe, Pickaxe and Shovel recipes.\nQuest 6: Watch Recipe.\n\nUpon completion of the final class quest, the survivalist gains +1 crafting tier to cloth, leather, scrap, iron and steel armor. Check the mastery perk for further unlocks.\n\n和訳修正中:DFSurvivalist
-DFSurvivalist_title,クラス:サバイバル
+DFSurvivalist,概要\n戦闘能力を振り切って生存に特化したクラス。その為かクラスクエストもバニラのチュートリアルクエストに似ている為、簡単に終わる。\n生き残る為に特化したクラス故に得られるスキルも解禁されたレシピも非常に生き残る為に役立つ物ばかりである…が、一方である程度慣れた人ならば無くてもなんとかなる物ばかりというのも悩ましい所。また時計改造パーツはメタルワークステーションを、ジャーキーはテイラーニングワークステーションが必要で更にツールの設置を要求される為にその確保が悩ましい。\n悩ましいが初心者向きのクラスではあるのでこの過酷な世界に慣れる為に選択するのも有りだろう。
+DFSurvivalist_title,[C0392B]DF[-] - サバイバリストクラス
 DFSurvivalistAdminBook,サバイバルブック(管理者用)
-DFSurvivalistClassBook,クラス:サバイバル
+DFSurvivalistClassBook,クラス:サバイバリスト
 DFSurvivalistMasteryBook,サバイバルブック(マスタリー)
 DFtechHealing,加速ヒーリング・ショット
 DFtechHealingDesc,健康回復のためのハイレベルなドーピング。
@@ -1228,8 +1229,8 @@ DFToolsoftheTradeDesc,パーク: 作業台を解除します。
 DFtooltanningRack,日焼けラック
 DFtoolweldingTorch,溶接トーチ
 DFtorchSurvival,サバイバリストのトーチ
-DFTraderSkillSystem,Traders now have a faction system that is independent of each other. That means, any faction you earn with one trader, will not carry over to the other.\n\nSo if you have T3 quests unlocked with Joel and find Rekt, you will only have T1 quests with Rekt.\n\nBut the trader faction does more than that. At higher faction, traders will teach you skills for dukes. This can be something as simple as levelling your Tool Crafting, or teaching you an actual recipe. Traders can also teach class mastery for a very high price.\n\nIf you don't see any options to learn a skill, either your faction isn't high enough, or you do not have enough coin on your person.\n\n和訳修正中:DFTraderSkillSystem
-DFTraderSkillSystem_title,トレーダー派閥
+DFTraderSkillSystem,トレーダーは現在、互いに独立した派閥システムを持っています。つまり、1つのトレーダーで獲得した派閥は、他のトレーダーに引き継がれません。\n\nしたがって、Joelでロック解除されたT3クエストがあり、Rektを見つけた場合、RektでのT1クエストしかありません。\n\nしかし、トレーダーは派閥はそれ以上のことをします。より高い派閥では、トレーダーはあなたに公爵のスキルを教えます。これは、ツールクラフティングを平準化する、または実際のレシピを教えるのと同じくらい簡単なことです。トレーダーは、非常に高い価格でクラスの習得を教えることもできます。\n\nスキルを習得するためのオプションが表示されない場合は、派閥が十分に高くないか、人に十分なコインがありません。\n\n和訳修正中:DFTraderSkillSystem\n\n和訳修正中: DFTraderSkillSystem
+DFTraderSkillSystem_title,[C0392B]DF[-]: トレーダー派閥
 DFTruckDamaged,軍用トラック(破壊)
 DFTruckLocked,軍用トラック
 DFTruckUnlocked,軍用トラック
@@ -1242,19 +1243,19 @@ DFVegetableOilDesc,植物油は調理に使用されます。
 DFvegetableSoup,野菜スープ
 DFvegetableSoupSchematic,レシピ「野菜スープ」
 DFveggieBolognaise,ボロニェーゼ
-DFVehicleModArmor,車両MOD:アーマーメッキ
+DFVehicleModArmor,車両アーマーメッキ
 DFVehicleModArmorDesc,プレーヤー被ダメージを50％減少させます。
-DFVehicleModEco,車両MOD:エンジンエコノミー
+DFVehicleModEco,車両エンジンエコノミー
 DFVehicleModEcoDesc,燃料使用量を50％減少させます。
-DFVehicleModFuelStorage,車両MOD:燃料タンク
+DFVehicleModFuelStorage,車両燃料タンク
 DFVehicleModFuelStorageDesc,車両の燃料容量を50％増加させます。
-DFVehicleModHeadlights,車両MOD:キセノンヘッドライト
+DFVehicleModHeadlights,車両キセノンヘッドライト
 DFVehicleModHeadlightsDesc,ヘッドライトの明るさを200％増加させます。
-DFVehicleModSpikes,車両MOD:スパイク
+DFVehicleModSpikes,車両スパイク
 DFVehicleModSpikesDesc,対ゾンビダメージを200％増加させます。
-DFVehicleModStorage,車両MOD:拡張ストレージ
+DFVehicleModStorage,車両拡張ストレージ
 DFVehicleModStorageDesc,保管容量を増やします。
-DFVehicleModTurbo,車両MOD:エンジンターボ
+DFVehicleModTurbo,車両エンジンターボ
 DFVehicleModTurboDesc,最小速度と最大速度を200％増加させます。
 DFVehicleWorkstation,メカニックワークステーション
 DFVehicleWorkstationDesc,メカニッククラス専用。高度な車両、車両MOD、MOD車両をクラフトできます。
@@ -1516,13 +1517,13 @@ farmScarecrow,かかし
 fireaxeScrapDesc,消防斧は木材の伐採に適しています。
 fireaxeTitaniumDesc,消防斧は木材の伐採に適しています。
 flagCanvas,フラッグ・キャンバス
-flagCanvasDesc,Cloth stitched together to give a big, blank piece of canvas so you can make your own flag.\n\n和訳修正中:flagCanvasDesc
+flagCanvasDesc,布を縫い合わせて、大きな空白のキャンバスを与えて、独自の旗を作ることができます。\n\n和訳修正中: flagCanvasDesc
 flagDesc,ポイントをマークするのに役立ちます。
 FlagGuppy,フラッグ(配置可能)
 FlagInfection,フラッグ(配置可能)
 FlagLooted,フラッグ(配置可能)
 flagPole,フラッグポール
-flagPoleDesc,Used for hanging bits of cloth from and pretending they are flags.\n\n和訳修正中:flagPoleDesc
+flagPoleDesc,布からぶら下がっていて、旗のふりをするために使用されます。\n\n和訳修正中: flagPoleDesc
 FlagRadiation,フラッグ(配置可能)
 FlagRepo,フラッグ(配置可能)
 FlagSheldon,フラッグ(配置可能)
@@ -1690,7 +1691,7 @@ loadingTipQuestSharing_title,クエストの共有
 loadingTipRadials,調べる [action:local:Activate][action:permanent:Activate]、リロード [action:local:Reload][action:permanent:Reload]、フラッシュライト [action:local:ToggleFlashlight][action:permanent:ToggleFlashlight] とインベントリ [action:local:Inventory][action:permanent:Inventory] キーにはラジアルメニューが割り当てられており、長押しで呼び出せます。状況によってはとれる選択肢が増えるかもしれません。
 loadingTipRadials_title,ラジアルメニュー
 loadingTipScoreSigns,看板の編集ボックスに画像のURLを入力して、画像を看板に表示させることができます。
-loadingTipScoreSigns_title,DF ONLY: 強化看板
+loadingTipScoreSigns_title,[C0392B]DF[-] - 強化看板
 loadingTipScrapping,インベントリ内でのスペースを確保するため、多くの略奪品や収集アイテムを解体することが可能です。\nアイテムを解体するとその素材の25%が失われますが、真鍮また鉄を鍛冶場で溶解し、その価値を失わないようにすることもできます。
 loadingTipScrapping_title,アイテムの解体
 loadingTipSledgehammers,スレッジハンマーは物を壊すのには最適ですが、加減をしなければ何も収穫することができません。
@@ -1747,51 +1748,53 @@ miningTip,オイルシェール以外のすべての鉱石は、全生物群系�
 mmGoLandClaimCount,土地主張ブロック配置数
 mmGoMaxAnimals,最大動物数
 mmGoMaxZombies,最大ゾンビ数
-modAblativeArmor,MOD:アブレーティブ装甲
+modAblativeArmor,アブレーティブ装甲改造パーツ
 modAblativeArmorDesc,火災バフを10%付与します。
 modArmorAdvancedMuffledConnectorsDesc,アーマーから発生するノイズを大幅に削減します。
 modArmorBandolierDesc,リロードが15%早くなる。\n効果は蓄積されないが、胸や脚の鎧に付与することができる。
-modArmorCoolingMeshAdv,MOD:クールメッシュ(高度)
+modArmorCoolingMeshAdv,高度クールメッシュ改造パーツ
 modArmorCoolingMeshAdvDesc,標準の冷却メッシュ保護を2倍にします。
 modArmorCoolingMeshDesc,アーマーを改造することで過酷な暑さに対抗する断熱効果が得られます。
 modArmorCustomizedFittingsDesc,アーマーによる動作やスタミナへのペナルティを大幅に削減します。
-modArmorDoubleStoragePocket,MOD:アーマーダブルポケット
+modArmorDoubleStoragePocket,アーマーダブルポケット改造パーツ
 modArmorDoubleStoragePocketDesc,アーマーにこの改造を施すと、動作を阻害するペナルティが2削減されます。
 modArmorHelmetLightDesc,どんなヘッドアーマーにでも装着できる光源です。光源アクション（F）から作動させます。
 modArmorImpactBracingDesc,落下ダメージを軽減します。
 modArmorImprovedFittingsDesc,アーマーによる動作やスタミナへのペナルティを軽減します。
-modArmorInsulatedLinerAdv,MOD:断熱ライナー(高度)
+modArmorInsulatedLinerAdv,高度断熱ライナー改造パーツ
 modArmorInsulatedLinerAdvDesc,標準の絶縁ライナー保護を2倍にします。
 modArmorInsulatedLinerDesc,このアーマー用改造パーツで寒さに対する断熱効果が得られます。
 modArmorMuffledConnectorsDesc,アーマーから発生するノイズを削減します。
-modArmorNightvisionGoggles,MOD:暗視ゴーグル
+modArmorNightvisionGoggles,暗視ゴーグル改造パーツ
 modArmorNightvisionGogglesDesc,夜間視覚ゴーグルは少し顔の保護を提供しますが、おそらくこれ以上の機能はないでしょう。
 modArmorPlatingBasicDesc,アーマープレートを追加することでアーマーレーティングを向上させることができます。どんなアーマーにでも装着可能です。
 modArmorPlatingReinforcedDesc,アーマー値を向上させます。どのアーマーにも取り付けることができます。
-modArmorSpikes,MOD:アーマースパイク
+modArmorSpikes,アーマースパイク改造パーツ
 modArmorSpikesDesc,出血バフを付与します。
-modArmorStoragePocket,MOD:アーマーポケット
+modArmorStoragePocket,アーマーポケット改造パーツ
 modArmorStoragePocketDesc,アーマーにこの改造を施すと、動作を阻害するペナルティが1削減されます。
-modArmorTacRiggingAdvanced,MOD:戦術リギング(高度)
+modArmorTacRiggingAdvanced,高度戦術リギング改造パーツ
 modArmorTacRiggingAdvancedDesc,セキュリティクラス専用。追加の運搬容量を付与。
-modArmorTacRiggingBasic,MOD:戦術リギング
+modArmorTacRiggingBasic,基本戦術リギング改造パーツ
 modArmorTacRiggingBasicDesc,追加の運搬容量を付与。
-modArmorTacRiggingInt,MOD:戦術リギング
+modArmorTacRiggingInt,戦術リギング改造パーツ
 modArmorTacRiggingIntDesc,追加の運搬容量を付与。
-modArmorTripleStoragePocket,MOD:アーマートリプルポケット
+modArmorTripleStoragePocket,アーマートリプルポケット改造パーツ
 modArmorTripleStoragePocketDesc,アーマーにこの改造を施すと、動作を阻害するペナルティが3削減されます。
 modArmorWaterPurifierDesc,ヘルメットに装着しておくと、水を飲む時に浄水してくれます。
-modChainsawHighRPMMotor,MOD:高回転チェーンソーモーター
+modChainsawHighRPMMotor,高回転チェーンソーモーター改造パーツ
+modChainsawHighRPMMotorDesc,高回転チェーンソーモーター！ダメージ400%アップ！
+modChainsawHighRPMMotorDesc,高回転チェーンソーモーター！ダメージ400%アップ！
 modChainsawHighRPMMotorDesc,高回転チェーンソーモーター！ダメージ400%アップ！
 modFuelTankLargeDesc,チェーンソーやオーガのタンクサイズを100%拡張します。
 modFuelTankSmallDesc,チェーンソーやオーガのタンクサイズを50%拡張します。
-modGlovesWatch,MOD:時計
+modGlovesWatch,時計改造パーツ
 modGunBarrelExtenderDesc,ダメージ、射程距離、命中精度が向上しますが、緊急時の武器の取り回しが難しくなります。
 modGunBipodDesc,武器で照準を合わせるときの精度と扱いやすさが向上します。
 modGunBowArrowRestDesc,アローレストによって弓矢の命中精度が改善されます。
 modGunBowPolymerStringDesc,この改造で矢やボルトの飛翔速度と到達距離が向上します。
-modGunBrassCatcher,MOD:真鍮キャッチャー
-modGunBrassCatcherAdv,MOD:真鍮キャッチャー(高度)
+modGunBrassCatcher,真鍮キャッチャー改造パーツ
+modGunBrassCatcherAdv,高度真鍮キャッチャー改造パーツ
 modGunBrassCatcherAdvDesc,セキュリティクラス専用。100％の薬莢リサイクルチャンス！
 modGunBrassCatcherDesc,50％の薬莢リサイクルチャンス！
 modGunChokeDesc,ショットガンの弾の散開を縮小します。
@@ -1800,44 +1803,44 @@ modGunDuckbillDesc,散弾の散開を通常の円形パターンから水平パ�
 modGunFlashlightDesc,あらゆる火器やクロスボウに装着できます。\n\nFを押すと作動します。Fを長押しすると複数のアイテムを作動させることができます。
 modGunForegripDesc,緊急時や移動時の武器の扱いやすさや精度が向上します。
 modGunLaserSightDesc,緊急時の発砲における照準が合わせやすくなり、精度が向上します。\nあらゆる火器やクロスボウに装着できます。\n\nFを押すと作動します。Fを長押しすると複数のアイテムを作動させることができます。
-modGunMagazineExtenderAdv,MOD:弾倉拡張
+modGunMagazineExtenderAdv,弾倉拡張改造パーツ
 modGunMagazineExtenderAdvDesc,マガジン容量を100％増加させます。
 modGunMagazineExtenderDesc,弾倉容量が増加します。
-modGunMeleeBlessedMetal,MOD:祝福金属
+modGunMeleeBlessedMetal,祝福金属改造パーツ
 modGunMeleeBlessedMetalNewDesc,デモニックゾンビに2倍、通常ゾンビに15％の追加ダメージを与えます。
-modGunMeleeFeelTheHeat,MOD:フィール・ザ・ヒート
+modGunMeleeFeelTheHeat,フィール・ザ・ヒート改造パーツ
 modGunMeleeFeelTheHeatDesc,ハンドガンの発射速度が20％アップし、リロード速度は30％アップする。
-modGunMeleeFlammableOil,MOD:可燃性オイル
+modGunMeleeFlammableOil,可燃性オイル改造パーツ
 modGunMeleeFlammableOilDesc,敵に火をつけることができます。
-modGunMeleeLiquidNitrogen,MOD:液体窒素
+modGunMeleeLiquidNitrogen,液体窒素改造パーツ
 modGunMeleeLiquidNitrogenDesc,一時的に敵を凍らせます。
-modGunMeleeNiCdBattery,MOD:ニッカド電池
+modGunMeleeNiCdBattery,ニッカド電池改造パーツ
 modGunMeleeNiCdBatteryDesc,武器をショッキングバージョンにグレードアップ。
 modGunMeleeRadRemoverDesc,被爆したゾンビの回復能力を90秒間無効にします。
-modGunMeleeShredderAmmo,MOD:アーマーシュレッダー弾
+modGunMeleeShredderAmmo,アーマーシュレッダー弾改造パーツ
 modGunMeleeShredderAmmoDesc,アーマー値を10％減少、最大60%までスタック可能！
 modGunMeleeTheHunterDesc,すべての動物へのダメージが+25%。
 modGunMuzzleBrakeDesc,推進用のガスを迂回させて反動を軽減します。
-modGunRechargableBattery,MOD:充電式バッテリー
+modGunRechargableBattery,充電式バッテリー改造パーツ
 modGunRechargableBatteryDesc,レーザーガン用。50％の薬莢リサイクルチャンス！
 modGunReflexSightDesc,この照準は、より素早い照準合わせを目的として考案されており、武器の扱いやすさが改善されます。
 modGunRetractingStockDesc,接近戦における武器の取り回しが向上するため、移動時や緊急時の武器の扱いやすさが改善されます。
-modGunRodAndSpring,MOD:ロッドスプリング交換
+modGunRodAndSpring,ロッドスプリング交換改造パーツ
 modGunRodAndSpringDesc,反動が増す代わりに発射速度を上昇させます。
 modGunScopeLargeDesc,照準にとらえたターゲットを拡大して見ることができます。\nロングライフルに装着します。
 modGunScopeMediumDesc,照準にとらえたターゲットを拡大して見ることができます。\nミディアムサイズの火器やクロスボウに装着します。
 modGunScopeSmallDesc,照準にとらえたターゲットを拡大して見ることができます。\n小型の火器やクロスボウに装着します。
-modGunShotgunTubeExtenderMagazine,MOD:チューブ拡張
-modGunShotgunTubeExtenderMagazine,MOD:チューブ拡張
+modGunShotgunTubeExtenderMagazine,チューブ拡張改造パーツ
+modGunShotgunTubeExtenderMagazine,チューブ拡張改造パーツ
 modGunShotgunTubeExtenderMagazineDesc,ポンプアクション式ショットガンの弾倉容量が3個分増加します。
 modGunShotgunTubeExtenderMagazineDesc,ポンプアクション式ショットガンの弾倉容量が3個分増加します。
 modGunSoundSuppressorSilencerDesc,サウンドサイレンサーは発砲音を大幅に削減しますが、射程距離やダメージは低下します。\n小口径の銃や速射率の低い銃との相性が抜群です。\nリボルバーでは使えません。
 modGunTriggerGroupAutomaticDesc,引き金式の武器をフルオートでの発砲のみに改造します。\n速射率を向上させ、反動をわずかに増加させます。
 modGunTriggerGroupBurst3Desc,引き金式の武器を3点バーストによる発砲に改造します。\n速射率を向上させ、反動をわずかに増加させます。
 modGunTriggerGroupSemiDesc,引き金式の武器をセミオートでの発砲のみに改造します。\n速射率を向上させ、反動をわずかに増加させます。
-modKnucklesBrokenGlass,MOD:割れたガラス
+modKnucklesBrokenGlass,割れたガラス改造パーツ
 modKnucklesBrokenGlassDesc,ナックル用出血バフ付与。
-modKnucklesExtraPadding,MOD:追加詰め物
+modKnucklesExtraPadding,追加詰め物改造パーツ
 modKnucklesExtraPaddingDesc,ナックル用耐久性アップ付与。
 modMeleeBunkerBusterDesc,石に対するダメージが15%向上します。
 modMeleeClubBarbedWireDesc,20%の確率で流血ダメージを与えます。パワーアタックの場合は40%。\n棍棒に装着可能です。
@@ -1850,7 +1853,7 @@ modMeleeFiremansAxeModDesc,消防士の斧を改造します。ブロックに�
 modMeleeFortifyingGripDesc,体力が50%を下回ると、体力が5秒おきに1回復します。
 modMeleeGraveDiggerDesc,土に対するダメージが15%向上します。
 modMeleeIronBreakerDesc,鉄に対するダメージが15%向上します。
-modMeleeLaserBattery,MOD:レーザーバッテリー
+modMeleeLaserBattery,レーザーバッテリー改造パーツ
 modMeleeLaserBatteryDesc,近接レーザー武器用です。デモニックゾンビに有効です。
 modMeleeSerratedBladeDesc,10%の確率で通常攻撃が出血性の傷を与えることがあります。
 modMeleeStructuralBraceDesc,この変更によって近接武器やツールの劣化が25%遅くなります。
@@ -1859,18 +1862,18 @@ modMeleeStunBatonRepulsorDesc,この改造パーツをスタンバトンに取�
 modMeleeTemperedBladeDesc,このブレード改造によってブロックダメージが10%向上し、劣化が15%遅くなります。
 modMeleeWeightedHeadDesc,近接武器やツール用の改造です。\n敵を気絶させたり動きを鈍らせる効果が追加されます。\n\nナイフやマチェーテには重りとなるヘッドがありません。
 modMeleeWoodSplitterDesc,木に対するダメージが15%向上します。
-modRadiationReadyBoots,MOD:耐放射線(ブーツ)
+modRadiationReadyBoots,耐放射線(ブーツ用)改造パーツ
 modRadiationReadyDesc,放射能からの保護を強化します。
-modRadiationReadyGloves,MOD:耐放射線(グローブ)
-modRadiationReadyHead,MOD:耐放射線(ヘルメット)
-modRadiationReadyPants,MOD:耐放射線(パンツ)
-modRadiationReadyVest,MOD:耐放射線(チェスト)
+modRadiationReadyGloves,耐放射線(グローブ用)改造パーツ
+modRadiationReadyHead,耐放射線(ヘルメット用)改造パーツ
+modRadiationReadyPants,耐放射線(パンツ用)改造パーツ
+modRadiationReadyVest,耐放射線(チェスト用)改造パーツ
 modShotgunSawedOffBarrelDesc,散弾の散開が拡大します。
-modTobisBalancingAct,MOD:Tobi'sバランシング
+modTobisBalancingAct,Tobi'sバランシング改造パーツ
 modTobisBalancingActDesc,ライフル用、ヘッドショットダメージ、精度の上昇付与。
-modTurretMeleePowerBlow,MOD:パワーブロー
+modTurretMeleePowerBlow,パワーブロー改造パーツ
 modTurretMeleePowerBlowDesc,ゾンビをノックします。
-modXPNerf,MOD:採掘XPの削減
+modXPNerf,採掘XPの削減改造パーツ
 modXPNerfDesc,採掘時のXP取得を50%減少させ、ゲームステージをコントロールする必要があるときに役立ちます。
 musicbox_turnOff,ジュークボックス:OFFする
 musicbox_turnOn,ジュークボックス:ONする
@@ -2047,7 +2050,7 @@ perkBetterBarterRank4Desc,トレーダー属性ステータス効果:Tier4
 perkBetterBarterRank4LongDesc,購入価格:-20%\n売却価格:+40%\nシークレットアイテム購入権利
 perkBetterBarterRank5Desc,トレーダー属性ステータス効果:Tier5
 perkBetterBarterRank5LongDesc,購入価格:-25%\n売却価格:+50%\nシークレットアイテム購入権利
-perkBetterLeadThanDeadDesc,Who needs accuracy when you can spray and pray?\n\n和訳修正中:perkBetterLeadThanDeadDesc
+perkBetterLeadThanDeadDesc,あなたがスプレーして祈ることができるとき、誰が正確さを必要としますか？\n\n和訳修正中: perkBetterLeadThanDeadDesc
 perkBetterLeadThanDeadName,ベター・リード・ザン・デッド
 perkBetterLeadThanDeadRank1Desc,発射速度:+15%\nリロード:+10%\nダメージ:+10％\nヘッドショット時追加ダメージ:+5%\n部位破壊確率:+5%
 perkBetterLeadThanDeadRank1ShortDesc,マシンガン属性ステータス効果:Tier1
@@ -2510,7 +2513,7 @@ perkPenetratorDesc,ターゲットの弱点を見つけ、APライフル弾で�
 perkPerception,知覚
 perkPerceptionDesc,知覚はあなたの官能認識の尺度です。知覚の増加は、武器ダメージ、効果範囲を高めます。
 perkPerceptionName,属性:知覚
-perkPhysicalConditioningDesc,Use the power of nanites to make yourself tougher than the average human.\n\n和訳修正中:perkPhysicalConditioningDesc
+perkPhysicalConditioningDesc,ナナイトの力を使用して、平均的な人間よりも困難になります。\n\n和訳修正中: perkPhysicalConditioningDesc
 perkPhysicalConditioningName,コンディション管理
 perkPhysicalConditioningRank1Desc,健康属性ステータス効果: Tier1
 perkPhysicalConditioningRank2Desc,健康属性ステータス効果: Tier2
@@ -2597,7 +2600,7 @@ perkScrapCraftingName,スクラップ系アイテム
 perkScrapCraftingRank1Desc,アンロック: スクラップ武器、ツール\n[DECEA3]アンロック要件[-]: ツール工作 Lv.1
 perkScrapCraftingRank1Title,アイテムアンロック: Tier1
 perkSelfMedicated,セルフメディケーション
-perkSelfMedicatedDesc,Specialize in boosting the benefits of mixing up your meds while not sweating the side effects.\n\n和訳修正中:perkSelfMedicatedDesc
+perkSelfMedicatedDesc,副作用を発汗させずに、薬を混ぜることの利点を高めることを専門としてください。\n\n和訳修正中: perkSelfMedicatedDesc
 perkSelfMedicatedRank1Desc,スタミナ属性ステータス効果:Tier1
 perkSelfMedicatedRank1LongDesc,薬物による脱水症状: -50％\n禁断症状確率: -20％\n薬物効果: +10％
 perkSelfMedicatedRank2Desc,スタミナ属性ステータス効果: Tier2
@@ -2617,7 +2620,7 @@ perkSexualTrexRank2LongDesc,スタミナ回復量:+20%
 perkSexualTrexRank3Desc,スタミナ属性ステータス効果:Tier3
 perkSexualTrexRank3LongDesc,スタミナ回復量:+30%
 perkShotgunDesc,ショットガンの作り方を学びましょう。
-perkShotgunMessiahDesc,Specialize with shotguns and send your enemies to meet their maker.\n\n和訳修正中:perkShotgunMessiahDesc
+perkShotgunMessiahDesc,ショットガンを専門とし、メーカーに会うために敵を送ってください。\n\n和訳修正中: perkShotgunMessiahDesc
 perkShotgunMessiahName,ショットガン・メシア
 perkShotgunMessiahRank1Desc,発射速度:15%\nリロード速度:+10%
 perkShotgunMessiahRank2Desc,発射速度:20%\nリロード速度:+15%
@@ -2702,7 +2705,7 @@ perkSteelCraftingRank1Title,アイテムアンロック:Tier1
 perkStrength,強さ
 perkStrengthDesc,強さはあなたの筋肉の尺度であり、近接兵器やツールによる被害を改善します。
 perkStrengthName,属性:強さ
-perkTheCompletionistDesc,If you qualify for this perk, you might want to put the mod down and go outside.  This means you, MC.\n\n和訳修正中:perkTheCompletionistDesc
+perkTheCompletionistDesc,この特典の資格がある場合は、modを置いて外に出たいと思うかもしれません。これはあなた、MCを意味します。\n\n和訳修正中: perkTheCompletionistDesc
 perkTheCompletionistName,完璧主義者
 perkTheCompletionistRank1Desc,XP: +25%\nデスペナルティ: なし\nテクノロジーアイテムクラフトレベル: +20\n[DECEA3]アンロック要件[-]: すべてのクラスマスタリー + テクノロジークラフトパークの完了
 perkTheCompletionistRank1Title,特別ステータス効果
@@ -2728,7 +2731,7 @@ perkTheOutlawRank4Desc,発射速度:+30%\nリロード速度:+25%\nダメージ:
 perkTheOutlawRank4ShortDesc,ピストル属性ステータス効果:Tier4
 perkTheOutlawRank5Desc,発射速度:+35%\nリロード速度:+30%\nダメージ:+50％\nヘッドショットダメージ:+30%\n部位破壊:+15%
 perkTheOutlawRank5ShortDesc,ピストル属性ステータス効果:Tier5
-perkTheSurvivorDesc,Specialize in using a combination of clothing and natural resilience to weather even the harshest of environments and any potential illnesses.\n\n和訳修正中:perkTheSurvivorDesc
+perkTheSurvivorDesc,最も厳しい環境や潜在的な病気でさえ、衣服と自然な回復力の組み合わせを使用することを専門としています。\n\n和訳修正中: perkTheSurvivorDesc
 perkTheSurvivorName,生存者
 perkTheSurvivorRank1Desc,サバイバル属性ステータス効果:  Tier1
 perkTheSurvivorRank1LongDesc,断熱性: +5%\n抵抗力: +10%
@@ -2740,14 +2743,14 @@ perkTheSurvivorRank4Desc,サバイバル属性ステータス効果:  Tier4
 perkTheSurvivorRank4LongDesc,断熱性: +20%\n抵抗力: +50%\n病気回復確率: 10%
 perkTheSurvivorRank5Desc,サバイバル属性ステータス効果:  Tier5
 perkTheSurvivorRank5LongDesc,断熱性: +25%\n抵抗力: +80%\n病気回復確率: 15%
-perkThisIsMyRifleDesc,This is my rifle. There are many like it but this one does more damage, fires faster and reloads faster with every rank.\n\n和訳修正中:perkThisIsMyRifleDesc
+perkThisIsMyRifleDesc,これは私のライフルです。それに似た多くの人がいますが、これはより多くのダメージを与え、より速く火を起こし、すべてのランクでより速くリロードします。\n\n和訳修正中: perkThisIsMyRifleDesc
 perkThisIsMyRifleName,俺のライフル
 perkThisIsMyRifleRank1Desc,発射速度:+15%\nリロード速度:+10%\nダメージ:+10％\nヘッドショットダメージ:+10%\n部位破壊:+5%\n射程距離:+10m
 perkThisIsMyRifleRank2Desc,発射速度:+20%\nリロード速度:+15%\nダメージ:+20%\nヘッドショットダメージ:+10%\n部位破壊:+5%\n射程距離:+10m
 perkThisIsMyRifleRank3Desc,発射速度:+25%\nリロード速度:+20%\nダメージ:+30％\nヘッドショットダメージ:+20%\n部位破壊:+10%\n射程距離:+20m
 perkThisIsMyRifleRank4Desc,発射速度:+30%\nリロード速度:+25%\nダメージ:+40%\nヘッドショットダメージ:+20%\n部位破壊:+10%\n射程距離:+20m
 perkThisIsMyRifleRank5Desc,発射速度:+35%\nリロード速度:+30%\nダメージ:+50％\nヘッドショットダメージ:+30%\n部位破壊:+15%\n射程距離:+30m
-perkThreatAssessmentDesc,Never wander around unprepared. Your ability to track animals now extends to an even bigger threat... zombies.\n\n和訳修正中:perkThreatAssessmentDesc
+perkThreatAssessmentDesc,準備ができていないことを決してさまようことはありません。動物を追跡する能力は、さらに大きな脅威にまで及びます...ゾンビ。\n\n和訳修正中: perkThreatAssessmentDesc
 perkThreatAssessmentName,脅威分析
 perkThreatAssessmentRank1Desc,ライフル/弓属性ステータス効果: Tier1
 perkThreatAssessmentRank1LongDesc,ライフル/弓でのHSダメージ:+50%\n50m以内のゾンビ(弱体化/通常)の追跡能力
@@ -2761,7 +2764,7 @@ perkTitaniumCraftingDesc,チタン系アイテムの能力が向上します。
 perkTitaniumCraftingName,チタン系アイテム
 perkTitaniumCraftingRank1Desc,タンツール、チタン鍛造、チタンクラブ、チタンスピア\n[DECEA3]アンロック要件[-]: プレイヤーLv.75
 perkTitaniumCraftingRank1Title,アイテムアンロック:Tier1
-perkTranshumanDesc,Sticking all that tech in your body was bound to have am effect. You are now more than human.\n\n和訳修正中:perkTranshumanDesc
+perkTranshumanDesc,あなたの体のすべての技術を貼り付けることは、AM効果を持つことになりました。あなたは今、人間以上のものです。\n\n和訳修正中: perkTranshumanDesc
 perkTranshumanName,神わざ
 perkTranshumanRank1Desc,特別ステータス効果: Tier1
 perkTranshumanRank2Desc,特別ステータス効果: Tier2
@@ -2787,7 +2790,7 @@ perkTurretsRank4Desc,ロボット属性ステータス効果: Tier4
 perkTurretsRank4LongDesc,クラフト品質: 41まで\nダメージ: +40%\n発射速度: +120%\n断弾倉: +40発\nロボットアクティブレンジ: 16m→17m\nリロード速度: +10%\n同時稼働台数: 2
 perkTurretsRank5Desc,ロボット属性ステータス効果: Tier5
 perkTurretsRank5LongDesc,クラフト品質: 51まで\nダメージ: +40%\n発射速度: +120%\n断弾倉: +50発\nロボットアクティブレンジ: 17m→18m\nリロード速度: +20%\n同時稼働台数: 3
-perkWasteTreasuresDesc,A series of tips you've learned since the bombs fell and the dead rose on how to scavenge useful items.\n\n和訳修正中:perkWasteTreasuresDesc
+perkWasteTreasuresDesc,爆弾が落ちてから学んだ一連のヒントが、有用なアイテムを清掃する方法について死んだものが上昇しました。\n\n和訳修正中: perkWasteTreasuresDesc
 perkWasteTreasuresName,荒地の財宝
 perkWasteTreasuresNameRank1Desc,トレジャー属性ステータス効果: Tier1
 perkWasteTreasuresNameRank1LongDesc,蜂蜜採取確率up\n棺桶からの略奪品レア度up
@@ -2799,7 +2802,7 @@ perkWasteTreasuresNameRank4Desc,トレジャー属性ステータス効果: Tier
 perkWasteTreasuresNameRank4LongDesc,シンクから、鉛、真鍮の採取確率up\nアンロック: 布切れ (食物繊維素材)
 perkWasteTreasuresNameRank5Desc,トレジャー属性ステータス効果: Tier5
 perkWasteTreasuresNameRank5LongDesc,バラックの椅子、軍用トラックから回収スキル付加up\nアンロック: 軍用アーマー (軍用繊維素材)
-perkWellMaintainedDesc,Look after your gear and it will look after you. Your weapons and tools will degrade slower with this perk.\n\n和訳修正中:perkWellMaintainedDesc
+perkWellMaintainedDesc,あなたのギアの世話をすると、それはあなたの世話をします。あなたの武器と道具は、この特典で遅くなるでしょう。\n\n和訳修正中: perkWellMaintainedDesc
 perkWellMaintainedName,高稼働率
 perkWellMaintainedRank1Desc,アイテム品質属性ステータス効果: Tier1
 perkWellMaintainedRank1LongDesc,武器/ツール劣化速度: -10%
@@ -2827,7 +2830,7 @@ perkWorkbenchRank2Desc,アンロック: メタル作業台、仕立て作業台\
 perkWorkbenchRank2Title,アイテムアンロック:Tier2
 perkWorkbenchToolsDesc,アンロック: 作業台ツール\n[DECEA3]アンロック要件[-]: 
 perkWorkbenchToolsName,作業台ツール
-perkWorkbenchToolsRank1Desc,
+perkWorkbenchToolsRank1Desc,アイテムアンロック:Tier1
 perkWorkbenchToolsRank1Title,アンロック: 作業台、卓上丸鋸
 perkWorkingOvensDesc,オーブンの作り方を学びましょう！
 perkWorkingOvensName,アンロック: オーブン\n[DECEA3]アンロック要件[-]: プレイヤーLv.25
@@ -3121,7 +3124,7 @@ quest_genericskillpoints_description,管理者専用クエスト。1スキルポ
 quest_genericskillpoints_offer,管理者専用クエスト。1スキルポイントを付与します。
 quest_genericskillpoints_subtitle,スキルポイントの取得
 quest_KagesBook,Kage's ブック
-quest_KagesBook_offer,There are two notes inside the book. The first reads: What's up zombie slayers!? This is Kage848 and this is my collection of skill notes, so leave them alone. SKILL NOTES FOR DAYZ!  The second reads:  Kage, leave my damn books alone! - Khaine.\n\n和訳修正中:quest_KagesBook_offer
+quest_KagesBook_offer,本の中には2つのメモがあります。最初の読み：Zombie Slayersはどうしたの！？これはKage848であり、これが私のスキルノートのコレクションですので、そのままにしてください。 Dayzのスキルノート！ 2番目の読み：Kage、私のいまいましい本を放っておいてください！ - ケーヌ。\n\n和訳修正中: quest_KagesBook_offer
 quest_KagesBook_subtitle,スキルノートの取得
 quest_ladykiller_response,レディーキラー
 quest_maneater_response,ザ・マンイーター
@@ -3567,7 +3570,7 @@ skillAutomatics,自動火器系
 skillAutomaticsBookDesc,自動武器のスキルを学びましょう。
 skillAutomaticsDesc,自動武器のスキルを高めます。
 skillAutomaticsName,自動火器系
-skillBioBoostsDesc,Infuse yourself with demonic essence to gain extra benefits. Probably not a wise idea...\n\n和訳修正中:skillBioBoostsDesc
+skillBioBoostsDesc,余分な利益を得るために、悪魔の本質を吹き込みましょう。おそらく賢明な考えではありません...\n\n和訳修正中: skillBioBoostsDesc
 skillBioBoostsName,バイオブースト
 skillBlades,ブレード系
 skillBladesBookDesc,ブレード武器のスキルを学びましょう。
@@ -3653,7 +3656,7 @@ skillSurvivalistMasterName,クラスマスター
 skillTechBoostsDesc,ナナイトと呼ばれるナノマシンを使って、身体能力を向上させる事ができる。
 skillTechBoostsName,テクニカルブースト
 SpawnCube,スポーンキューブ
-SpawnCubeDesc,Allows Prefab builders to set up specific spawn entities via in-game programable code:  Sign Text:  ec=npcBaker;task=wander;pc=99. Entity Class zombie Bow, with Task Wander, and PathingCode 99.\n\n和訳修正中:SpawnCubeDesc
+SpawnCubeDesc,プレハブビルダーは、ゲーム内プログラム可能なコードを介して特定のスポーンエンティティをセットアップできるようにします。エンティティクラスのゾンビボウ、タスクをさまようと、PathingCode 99。\n\n和訳修正中: SpawnCubeDesc
 stainlessSteelShapes:VariantHelper,(変形)
 start,ん？あなたゾンビ？
 start,ん？あなたゾンビ？
@@ -4176,7 +4179,7 @@ wanderingTrader,さまようトレーダー
 WatchDesc,手袋に組み込む改造パーツで時刻が表示されます。
 weldingTorchDesc,溶接トーチです。研究デスクで使用します。
 wellnessTip,あなたの最大ヘルスとスタミナは現在ウェルネスと呼ばれる目に見えない統計に基づいています。ゲームの開始時に、あなたは100のウェルネスとさまざまな行動があり、このようにさまざまな行動が悪くなるでしょう。死にかけているのはあなたに10のウェルネスを失い、それに応じて最大ヘルスとスタミナを減らします。これは永続的です。あなたの健康は50未満に減少することはできません。しかし、あなたの健康を提起する行動がいくつかあります。ヘルスナッツとあなたの陸上競技のスキルと同様に、食べ物、飲み物、そしていくつかの薬はそれを増やします。ウェルネスを高めるアイテムは、UIで彼らがどれだけ上昇するかに注意します。同様に、飲食せずに長時間が経過すると感染して放射線の線量を取っています。最大ヘルスとスタミナは300ですが、その限界を壊す方法があるかもしれません...
-wellnessTip_title,DF: 健康値
+wellnessTip_title,[C0392B]DF[-] - 健康値
 WheatDesc,ベーキングで便利です。
 WhiteRiverFactionSchematic,ホワイトリバー派閥に入りましょう。
 WhiteRiverFactionSchematicDesc,ホワイトリバー派閥に入りましょう。
