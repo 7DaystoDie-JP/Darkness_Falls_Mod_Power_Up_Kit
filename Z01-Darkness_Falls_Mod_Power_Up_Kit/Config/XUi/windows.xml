@@ -57,19 +57,19 @@
         <rect name="hud" pos="-374,63" rows="1" cols="1" width="80" controller="HUDStatBar" visible="{statvisible}">
                 <sprite depth="1" pos="0,0" height="57" width="120" color="0,0,0,180" type="sliced" foregroundlayer="true" />
                 <sprite depth="2" name="windowIcon" width="30" height="30" pos="4,-4" sprite="ui_game_symbol_knife" color="[iconColor]" foregroundlayer="true" />
-                <label depth="2" name="TextContent" pos="36,-4" width="80" height="18" text="TRAVELLED" font_size="20" color="[white]" />
+                <label depth="2" name="TextContent" pos="36,-4" width="80" height="18" text="AS Lv." font_size="20" color="[white]" />
                 <label depth="2" name="TextContent" pos="36,-17" width="80" height="30" text="[DECEA3]{cvar($Equip_Item_Skill_Lvl:0)}" font_size="30" />
             </rect>
         <rect name="hud" pos="-252,63" rows="1" cols="1" width="80" controller="HUDStatBar" visible="{statvisible}">
             <sprite depth="1" pos="0,0" height="57" width="120" color="0,0,0,180" type="sliced" foregroundlayer="true" />
             <sprite depth="2" name="windowIcon" width="30" height="30" pos="4,-4" sprite="ui_game_symbol_xp" color="[iconColor]" foregroundlayer="true" />
-            <label depth="2" name="TextContent" pos="36,-4" width="80" height="18" text="DEATH" font_size="20" color="[white]" />
+            <label depth="2" name="TextContent" pos="36,-4" width="80" height="18" text="AS EXP." font_size="20" color="[white]" />
             <label depth="2" name="TextContent" pos="36,-17" width="80" height="30" text="[DECEA3]{cvar($Equip_Item_Skill_XP:0)}" font_size="30" />
         </rect>
         <rect name="hud" pos="-130,63" rows="1" cols="1" width="80" controller="HUDStatBar" visible="{statvisible}">
             <sprite depth="1" pos="0,0" height="57" width="120" color="0,0,0,180" type="sliced" foregroundlayer="true" />
             <sprite depth="2" name="windowIcon" width="30" height="30" pos="4,-4" sprite="ui_game_symbol_adventure" color="[iconColor]" foregroundlayer="true" />
-            <label depth="2" name="TextContent" pos="36,-4" width="80" height="18" text="WELLNESS" font_size="20" color="[white]" />
+            <label depth="2" name="TextContent" pos="36,-4" width="80" height="18" text="NEXT Lv." font_size="20" color="[white]" />
             <label depth="2" name="TextContent" pos="36,-17" width="80" height="30" text="[DECEA3]{cvar($Equip_Item_Skill_Next:0)}" font_size="30" />
         </rect>
     </append>
